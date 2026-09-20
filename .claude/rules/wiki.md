@@ -44,3 +44,14 @@ Keep blank lines around raw HTML blocks. After adding a new deck, restart `npm r
 ## Site configuration
 
 `site/quartz.config.yaml` is the only file in `site/` we own. Colours and fonts mirror `themes/sketch.css`. Plugins deliberately disabled: `@quartz-themes/core`, `cname`, `obsidian-plugin-excalidraw`, `note-properties`, `encrypted-pages`, analytics. `ignorePatterns: [drafts, templates, .obsidian]`.
+
+## Propagation checklist for anything new
+
+A new concept note, guide or lecture page is finished only when a student can reach it:
+
+1. Glossary row in `concepts/index.md` (concepts) or a row in `guides/index.md` / `lectures/index.md`.
+2. Wikilinks from every existing page that mentions the term; use `[[Term|inflected form]]` for grammar.
+3. The Roadmap row for the week that covers it.
+4. `## Terms from this lecture` on the relevant lecture page.
+5. `## Related` links both ways.
+6. Run `npm run build` and `npm run check:links` before committing.

@@ -31,7 +31,8 @@ Preview only through `npm run dev` (the dev server uses no base path). A plain `
 ## Hard rules
 
 - Do not edit `lectures/01-introduction-to-ai.md` or `themes/sketch.css` unless explicitly asked. They are curated by hand.
-- Never run `npx quartz upgrade`, `npx quartz sync` or `npx quartz create` here. They operate on the whole git repo, not on `site/`. Upgrade with `npm run site:upgrade`.
+- Never run `npx quartz upgrade`, `npx quartz sync` or `npx quartz create` here. They operate on the whole git repo, not on `site/`. Upgrade with `npm run site:upgrade`, which needs the `upstream` remote once per clone: `git remote add upstream https://github.com/jackyzha0/quartz.git`.
+- When you add a concept note, guide or lecture page, wire it in before calling it done: Glossary row, wikilinks from every page that mentions the term, the Roadmap row for its week, the lecture page terms list, the guides or lectures index. A page nobody links to does not exist for a student.
 - The Quartz build applies every `.gitignore` it can see, including the root one, to the files it copies. Never ignore anything under `wiki/` or `site/quartz/static/` in any `.gitignore`. The rendered decks are excluded through `.git/info/exclude`, which `npm run lectures` maintains.
 - Deck filenames are lowercase kebab-case. Images live in `lectures/assets/`, never remote URLs.
 - `draft: true` in frontmatter (wiki page or deck) keeps it off the site. It does not hide it on GitHub.

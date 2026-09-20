@@ -30,7 +30,7 @@ npm run lectures    # render decks only (HTML + PDF) into site/quartz/static/sli
 - Edit the wiki by opening the `wiki/` folder as a vault in Obsidian.
 - Write lectures in VS Code or JetBrains with the Marp extension; see [`lectures/README.md`](lectures/README.md).
 - To keep a page or a deck off the website while you work on it, add `draft: true` to its frontmatter. It stays visible in this repository.
-- To update Quartz: `npm run site:upgrade`. Do not run `npx quartz upgrade` or `npx quartz sync` in this repo.
+- To update Quartz: `npm run site:upgrade`. It pulls the Quartz subtree from the `upstream` remote, so add it once per clone: `git remote add upstream https://github.com/jackyzha0/quartz.git`. Do not run `npx quartz upgrade` or `npx quartz sync` in this repo.
 
 ## License
 

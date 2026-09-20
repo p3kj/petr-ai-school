@@ -28,4 +28,5 @@ Anthropic sells the same model in three products, see [[Chat Work and Code|Chat,
 ## Related
 
 - [[Agent]], [[Harness]], [[Tool]] - the parts it is made of
+- [[Choosing a client]] and [[Your first session]] - installing it and the first twenty minutes
 - [[Roadmap]] - when we install it and what we do first

@@ -23,7 +23,9 @@ Root pages: `index.md` (home), `about.md`.
 - **Wikilinks everywhere.** First mention of any term links to its note. Use the alias form for grammar: `[[Token|tokens]]`. Prefer linking the real filename over an alias so popovers show the note, not a redirect.
 - **Frontmatter** on every note: `title`, `description` (one sentence; shown in popovers, search and link previews), `tags` (`concept`, `guide`, `lecture`, `course`), `aliases` for plurals and synonyms, optional `draft: true`.
 - Do not hard-wrap paragraphs. Obsidian and the site both treat a single newline as a line break.
-- Callouts use Obsidian syntax: `> [!note]`, `> [!tip]`, `> [!question]`, `> [!warning]`.
+- Callouts use Obsidian syntax: `> [!note]`, `> [!tip]`, `> [!question]`, `> [!warning]`. Collapsed troubleshooting entries use `> [!question]- Title`.
+- Screenshots go in `wiki/attachments/` with a lowercase kebab-case name and an italic caption line under the embed naming the source and license (official docs, Microsoft Learn CC BY 4.0, Wikimedia Commons). Prefer official documentation images; never crop out attribution.
+- Guides end with `## Official documentation` (links to the vendor docs) and `## Related`.
 - Never ignore anything under `wiki/` in any `.gitignore` (root or nested). Quartz applies gitignore rules to the content it builds and would drop those pages.
 - Link resolution is `shortest` in both Obsidian and Quartz: `[[Token]]` works from any folder as long as the filename is unique.
 

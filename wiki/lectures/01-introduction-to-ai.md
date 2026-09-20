@@ -24,8 +24,15 @@ Once you are comfortable with the "Code" level of working with AI, every other A
 
 ## Homework
 
-Coming soon.
+Install Claude Code and try it. Do not be afraid of the terminal or of the VS Code extension; they are the same agent in a different window, and you can switch any time.
+
+1. Read [[Choosing a client]] and pick one. Undecided? Windows: the [[Install Claude Code on Windows|terminal]] via the Terminal app, or [[Claude Code in VS Code|VS Code]] if you like seeing your files. Nervous: the [[Claude Code in the desktop app|desktop app]].
+2. Install it: [[Install Claude Code on Windows]], [[Install Claude Code on Mac]], [[Claude Code in VS Code]] or [[Claude Code in the desktop app]].
+3. Do [[Your first session]]: a folder, three files, three questions, one small change. Twenty minutes.
+4. Bring one answer to the next session: what surprised you?
+
+Stuck? Each guide ends with the errors people actually hit. Otherwise bring the laptop.
 
 ## Terms from this lecture
 
-[[Model]] · [[Agent]] · [[Harness]] · [[Tool]] · [[Context window]] · [[Token]] · [[Claude Code]] · [[Chat Work and Code|Chat, Work and Code]]
+[[Model]] · [[Agent]] · [[Harness]] · [[Tool]] · [[Context window]] · [[Token]] · [[Claude Code]] · [[Client]] · [[Terminal]] · [[Chat Work and Code|Chat, Work and Code]]

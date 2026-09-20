@@ -12,7 +12,7 @@ This is a living plan. Sessions get reordered, merged or added depending on how 
 | 01 | [[01-introduction-to-ai\|Introduction to AI]] | Know what this course is, where AI stands today, and why we chose [[Claude Code]]. |
 | 02 | Where AI actually runs | Explain [[Mental models#4. AI = model + harness + tools\|model, harness and tools]]; tell a chat website from an [[Agent\|agent]]; choose between [[Chat Work and Code\|Chat, Work and Code]]. |
 | 03 | Files first | Work confidently with [[Folder\|folders]] and files; open the same folder in Explorer, VS Code and Claude Code. |
-| 04 | Your first project | Install Claude Code, open a folder as a project, write your first [[Prompt\|prompt]] (Role, Context, Command, Format), approve your first action. |
+| 04 | Your first project | Install Claude Code ([[Choosing a client\|pick a client]]), open a folder as a project, write your first [[Prompt\|prompt]] (Role, Context, Command, Format), approve your first action. See [[Your first session]]. |
 | 05 | Context, models and tokens | Understand the [[Context window\|context window]] and the [[Attractor effect\|attractor effect]], pick a [[Model\|model]] tier, read what a [[Token\|token]] costs. |
 | 06 | Markdown in an hour | Write notes and documents in Markdown, the plain text format AI reads and writes best. |
 | 07 | Tools and connectors | See which [[Tool\|tools]] the agent has, add connectors (MCP) to calendar, mail, documents, [[Image generation\|image generators]]. |

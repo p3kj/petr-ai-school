@@ -8,9 +8,11 @@ Welcome. This is the home of Petr's AI School: a series of weekly sessions for c
 ## Start here
 
 1. [[Mental models]] - the four ideas everything else builds on. Read this first.
-2. [[Roadmap]] - what we cover week by week.
-3. [[01-introduction-to-ai|Lecture 01: Introduction to AI]] - the first session, slides included.
-4. [[concepts/index|Glossary]] - every term we use, explained in plain English.
+2. [[Choosing a client]] - terminal, VS Code or desktop app: pick your window, then install it with the [[guides/index|guides]].
+3. [[Your first session]] - the homework after lecture 01. Twenty minutes, any client.
+4. [[Roadmap]] - what we cover week by week.
+5. [[01-introduction-to-ai|Lecture 01: Introduction to AI]] - the first session, slides included.
+6. [[concepts/index|Glossary]] - every term we use, explained in plain English.
 
 ## How to use this wiki
 
@@ -22,6 +24,6 @@ Welcome. This is the home of Petr's AI School: a series of weekly sessions for c
 ## What is here
 
 - [[lectures/index|Lectures]] - slides from every session, with notes and homework.
+- [[guides/index|Guides]] - step-by-step instructions: installing, first session, each client.
 - [[concepts/index|Concepts]] - the vocabulary: [[Model|model]], [[Token|token]], [[Context window|context]], [[Tool|tool]], [[Agent|agent]] and more.
-- [[guides/index|Guides]] - step-by-step instructions you can follow at your desk.
-- [[about|About]] - who runs this, how to ask questions, how to report a mistake.
+- [[about|About]] - who runs this, what you will take away, how to report a mistake.

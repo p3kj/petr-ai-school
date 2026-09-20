@@ -36,7 +36,7 @@ Names and rankings change every few months. The picture below is one independent
 
 ## How models differ
 
-- **Tiers inside a family.** Every lab sells a big, a medium and a small model (for Claude: Opus, Sonnet, Haiku). Bigger is smarter and slower and costs more per [[Token|token]]; smaller is fast and cheap. Day to day, this choice matters more than which lab.
+- **Tiers inside a family.** Every lab sells a big, a medium and a small model (for Claude: Fable, Opus, Sonnet, Haiku). Bigger is smarter and slower and costs more per [[Token|token]]; smaller is fast and cheap. Day to day, this choice matters more than which lab. See [[Claude model family]] for the full comparison with OpenAI and Google equivalents.
 - **Thinking effort.** Many models can be told to think longer before answering. More thinking, better reasoning, higher cost.
 - **Context size.** How much they can see at once. See [[Context window]].
 - **Tool use.** How reliably they operate as an [[Agent|agent]]: reading files, running programs, checking their own work. This is where the frontier labs pull ahead.

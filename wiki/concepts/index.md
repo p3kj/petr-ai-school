@@ -10,6 +10,7 @@ Hover over a term for the short version, click for the full page. Terms are adde
 | [[Agent]] | An AI that can act, not just talk: it uses tools in a loop until a task is done. |
 | [[Attractor effect]] | Everything in the context pulls the answer toward it for the rest of the conversation, even what you forbid. |
 | [[Claude Code]] | The agent we use in this course. A model, a harness and many tools, in a terminal or an editor. |
+| [[Claude model family]] | Fable, Opus, Sonnet, Haiku: what each tier is for, what it costs, and the OpenAI and Google equivalents. |
 | [[Client]] | The window you talk to the agent through: terminal, VS Code, desktop app, JetBrains, web. Same agent underneath. |
 | [[Context window]] | Everything the model can see right now. Fixed size; when it is full, older things drop out. |
 | [[Folder]] | A container for files on your disk. The same folder no matter which program opens it. |

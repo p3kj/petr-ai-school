@@ -11,10 +11,10 @@ tags:
 
 ## What we covered
 
-- How the course works: 8 to 12 weekly sessions of one hour, homework, discussion afterwards.
-- AI today is a jungle of names. Google, OpenAI, Anthropic, xAI and Meta make the big [[Model|models]]: Gemini, ChatGPT, Claude, Grok and Llama.
-- Why we picked [[Claude Code]]: it is an [[Agent|agent]] with a strong [[Harness|harness]] and many [[Tool|tools]], and most of us already have access to it.
-- Chat, Work, Code: three ways to use the same AI. Chat is an advisor on the phone. Work is an external contractor. Code is a colleague sitting next to you with access to everything you have.
+- How the course works: 8 to 12 weekly sessions of one hour, homework, discussion afterwards. What you will take away is listed on the [[about#What you will take away|About page]].
+- AI today is a jungle of names. Google, OpenAI, Anthropic, xAI and Meta make the big [[Model|models]]: Gemini, ChatGPT, Claude, Grok and Muse.
+- Why we picked [[Claude Code]]: it is an [[Agent|agent]] with a strong [[Harness|harness]] and many [[Tool|tools]], and most of us already have access to it. One caveat: it does not [[Image generation|generate images]].
+- [[Chat Work and Code|Chat, Work and Code]]: three ways to use the same AI. Chat is an advisor on the phone. Work is a contractor you hand a folder. Code is a colleague sitting next to you with access to everything you have.
 - The [[Roadmap]] for the coming weeks.
 - Demo: Claude Code in different windows, [[Folder|folders]] and projects, tools, models, [[Context window|context]] and [[Token|tokens]].
 
@@ -28,4 +28,4 @@ Coming soon.
 
 ## Terms from this lecture
 
-[[Model]] · [[Agent]] · [[Harness]] · [[Tool]] · [[Context window]] · [[Token]] · [[Claude Code]]
+[[Model]] · [[Agent]] · [[Harness]] · [[Tool]] · [[Context window]] · [[Token]] · [[Claude Code]] · [[Chat Work and Code|Chat, Work and Code]]

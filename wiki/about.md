@@ -1,6 +1,6 @@
 ---
 title: About
-description: Who runs Petr's AI School, how the course works, and how to contribute or report a mistake.
+description: Who runs Petr's AI School, how the course works, what you will take away, and how to contribute or report a mistake.
 ---
 
 Petr's AI School is run by Petr Jaroš for colleagues at OnSinch and Shameless, plus friends who asked to join. It started in September 2026.
@@ -14,6 +14,15 @@ Petr's AI School is run by Petr Jaroš for colleagues at OnSinch and Shameless, 
 ## Who it is for
 
 Anyone whose work involves a computer. Sales, operations, finance, support, management, design. It is **not** aimed at programmers; they already have their own material.
+
+## What you will take away
+
+By the end of the course you will:
+
+1. **Know the fundamentals**, so no new AI model or product will surprise you. You will recognise the [[Model|model]], the [[Harness|harness]] and the [[Tool|tools]] under any coat of paint.
+2. **Be comfortable with the "Code" style of working with AI**, an [[Agent|agent]] with real tools in your own [[Folder|folders]]. That is where the real power is, and everything else feels simple afterwards.
+3. **Tackle any challenge**: bring a task from your job, break it down, and get it done with an agent, start to end.
+4. **Know the differences** between models, products and tools well enough to choose the right one for a job, and to switch when a better one arrives. See [[Chat Work and Code|Chat, Work and Code]].
 
 ## What you need
 

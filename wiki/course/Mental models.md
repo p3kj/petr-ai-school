@@ -19,6 +19,8 @@ Analogy: a filing cabinet in the office. You can look at it, a colleague can loo
 
 Today we use Claude. Next year it may be something else. That is fine. Everything you learn here about [[Folder|folders]], [[Context window|context]], [[Tool|tools]] and [[Prompt|prompts]] works the same with any capable AI. Being able to switch is the skill, not loyalty to one product.
 
+Agnostic does not mean shallow, though. **Pick one and master it before you switch.** Go deep with one tool until it feels natural; every other tool will then come far easier, because you will recognise the same parts under a different coat of paint.
+
 ## 3. Same agent, different windows
 
 You can talk to [[Claude Code]] in a terminal, in a desktop app, inside VS Code, or inside JetBrains. These are different windows onto the **same** [[Agent|agent]]. Pick whatever feels comfortable. Nothing you learn is wasted if you switch later.
@@ -31,14 +33,14 @@ This is the big one. What people call "the AI" is really three parts:
 - The [[Harness|harness]] runs the loop: it gives the model your request, watches what the model wants to do next, asks you for permission, and keeps going until the job is done.
 - The [[Tool|tools]] do the actual work: read a file, write a file, run a program, search the web, open your calendar.
 
-A chat website is a model with almost no tools. It can only talk. Claude Code is the same kind of model with a harness and many tools, so it can act. **More tools, more it can do for you.** That is the real difference between "chatting with AI" and "working with AI".
+A chat website is a model with almost no tools. It can only talk. Claude Code is the same kind of model with a harness and many tools, so it can act. **More tools, more it can do for you.** That is the real difference between "chatting with AI" and "working with AI". See [[Chat Work and Code|Chat, Work and Code]] for the three products side by side.
 
 Analogy: a brilliant advisor on the phone versus the same person sitting at your desk with access to your computer. Same brain. Very different usefulness.
 
 ## Common beliefs, corrected
 
 > [!question] "The AI on the website can do everything."
-> It can only produce text. It cannot see your files, send an email or fill in a spreadsheet unless a tool for that is connected. When it seems to do more, a tool is doing it.
+> It can only produce text. It cannot see your files, send an email or fill in a spreadsheet unless a tool for that is connected. When it seems to do more, a tool is doing it. Even [[Image generation|generating a picture]] is a separate model wired in as a tool.
 
 > [!question] "AI on my computer is a different, riskier kind of AI."
 > Same model. The difference is the tools it is allowed to use, and you approve each of them. The [[Harness|harness]] asks before it acts.
@@ -46,10 +48,14 @@ Analogy: a brilliant advisor on the phone versus the same person sitting at your
 > [!question] "It remembers everything I ever told it."
 > It sees only what is in the [[Context window|context window]] right now. Memory features exist, but they are a tool built on top, not the default.
 
+> [!question] "If I tell it not to do something, it will drop the idea."
+> Whatever you mention stays in the context and keeps pulling the answer toward it, forbidden or not. Say what to do instead. See [[Attractor effect]].
+
 > [!question] "This is for programmers."
 > Claude Code is good at code because code is text in files. Your documents, notes and spreadsheets are also text in files. It works the same way for them.
 
 ## Related
 
 - [[Roadmap]] - how these ideas map to the weekly sessions
+- [[Chat Work and Code|Chat, Work and Code]] - the three products compared
 - [[concepts/index|Glossary]]

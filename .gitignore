@@ -15,7 +15,9 @@ node_modules/
 lectures/*.html
 lectures/*.pdf
 lectures/*.pptx
-site/quartz/static/slides/
+# Rendered decks (site/quartz/static/slides/) are excluded via .git/info/exclude by
+# scripts/build-lectures.mjs. A rule here would also hide them from the Quartz build,
+# which applies .gitignore files to everything it copies.
 
 # Obsidian per-user state (shared settings stay tracked)
 wiki/.obsidian/workspace.json

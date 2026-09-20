@@ -1,0 +1,3 @@
+# Marp CLI defaults for manual exports (npx marp ... from anywhere in the repo).
+# The website build (scripts/build-lectures.mjs) passes its own flags and ignores this file.
+themeSet: themes

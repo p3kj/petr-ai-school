@@ -1,0 +1,24 @@
+{
+  "name": "petr-ai-school",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Petr's AI School: Marp lectures, an Obsidian wiki and the Quartz site that publishes them.",
+  "type": "module",
+  "license": "CC-BY-SA-4.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "npm ci && npm --prefix site ci",
+    "lectures": "node scripts/build-lectures.mjs",
+    "lectures:html": "node scripts/build-lectures.mjs --no-pdf",
+    "site:serve": "npm --prefix site run quartz -- build --serve -d ../wiki",
+    "site:build": "npm --prefix site run quartz -- build -d ../wiki",
+    "dev": "npm run lectures:html && npm run site:serve",
+    "build": "npm run lectures && npm run site:build",
+    "site:upgrade": "git fetch upstream v5 && git subtree pull --prefix site upstream v5 --squash && npm --prefix site install"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.5.1"
+  }
+}

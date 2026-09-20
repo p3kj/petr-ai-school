@@ -1,0 +1,490 @@
+/* @theme sketch */
+
+/*!
+ * sketch - clean lecture theme for hand-drawn material
+ * White ground, clean sans for reading, handwriting for personal notes,
+ * one red accent. Built to sit under Excalidraw-style drawings.
+ *
+ * @theme sketch
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+ */
+
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600;700&family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+  --bg:        #ffffff;
+  --surface:   #f7f7f6;
+  --ink:       #2a2827;
+  --ink-soft:  #55524f;
+  --muted:     #9b9793;
+  --line:      #e2e0dd;
+  --line-firm: #2a2827;
+  --accent:      #e3253d;
+  --accent-deep: #be1730;
+  --accent-wash: #fdecef;
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-hand: 'Kalam', 'Segoe Print', 'Comic Sans MS', cursive;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* ---------------------------------------------------------- slide */
+
+section {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 26px;
+  line-height: 1.6;
+  letter-spacing: -0.004em;
+  padding: 76px 88px;
+  /* the imported default theme sets `place-content: safe center center`,
+     which vertically centres every slide. Start from the top instead. */
+  align-content: start;
+}
+
+section.lead {
+  align-content: safe center;
+  text-align: center;
+}
+
+/* opt back in to vertical centring on a normal slide */
+section.middle { align-content: safe center; }
+
+section.invert {
+  --bg:        #2a2827;
+  --surface:   #383635;
+  --ink:       #ffffff;
+  --ink-soft:  #d6d3d0;
+  --muted:     #9b9793;
+  --line:      #47443f;
+  --line-firm: #ffffff;
+  --accent:      #ff5c6e;
+  --accent-deep: #ff8592;
+  --accent-wash: #402a2e;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+/* ------------------------------------------------------ headings */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.028em;
+  margin: 0 0 .5em;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.4em; margin-bottom: .7em; }
+h3 { font-size: 1.05em; font-weight: 600; }
+h4 { font-size: .95em; font-weight: 600; color: var(--ink-soft); }
+
+section.lead h1 { font-size: 2.7em; }
+
+/* hand-drawn underline under every section heading */
+h2::after {
+  content: '';
+  display: block;
+  width: 2.4em;
+  height: 9px;
+  margin-top: .22em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 9' preserveAspectRatio='none'%3E%3Cpath d='M2 6.2C16 3.1 31 7.4 48 4.6c18-3 36 3.4 52 1.2' fill='none' stroke='%23e3253d' stroke-width='4.6' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat left center;
+  background-size: 100% 100%;
+}
+
+section.lead h2::after { margin-left: auto; margin-right: auto; }
+
+/* handwritten kicker label */
+h5, h6 {
+  font-family: var(--font-hand);
+  font-size: 0.95em;
+  font-weight: bold;
+  letter-spacing: .01em;
+  color: var(--accent);
+  margin: 0 0 .35em;
+}
+
+/* ---------------------------------------------------- body copy */
+
+p { margin: 0 0 .75em; }
+
+strong { font-weight: 600; }
+em     { font-style: italic; }
+
+a {
+  color: var(--accent-deep);
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: var(--accent);
+}
+
+mark {
+  background: var(--accent-wash);
+  color: var(--ink);
+  padding: .05em .28em;
+  border-radius: .5em .2em .6em .25em;
+}
+
+kbd {
+  font-family: var(--font-mono);
+  font-size: .78em;
+  border: 1.5px solid var(--line-firm);
+  border-radius: .4em .25em .45em .3em;
+  padding: .45em .45em;
+}
+
+/* -------------------------------------------------------- lists */
+
+ul, ol { margin: 0 0 .75em; padding-left: 1.25em; }
+li { margin: .32em 0; padding-left: .2em; }
+ul ul, ol ol, ul ol, ol ul { margin: .22em 0; }
+
+li::marker { color: var(--accent); }
+
+/* numbered points read like the book: bold red numerals */
+ol > li::marker {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* --------------------------------------------------- blockquote */
+
+blockquote {
+  margin: .3em 0 .85em;
+  padding: .1em 0 .1em 1.05em;
+  border-left: 2.5px solid var(--accent);
+  color: var(--ink-soft);
+}
+
+blockquote > *:last-child { margin-bottom: 0; }
+blockquote::before, blockquote::after { content: none; }
+
+hr {
+  border: 0;
+  border-top: 1.5px solid var(--line);
+  margin: 1em 0;
+}
+
+/* -------------------------------------------------------- table */
+
+table {
+  border-collapse: collapse;
+  font-size: .87em;
+  margin: .2em 0 .85em;
+}
+
+th, td {
+  padding: .45em .9em;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+thead th {
+  font-weight: 600;
+  border-bottom: 2px solid var(--line-firm);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: 0; }
+
+/* --------------------------------------------------------- code */
+
+code { font-family: var(--font-mono); font-size: .82em; }
+
+:not(pre) > code {
+  background: var(--surface);
+  color: var(--accent-deep);
+  padding: .1em .35em;
+  border-radius: .3em;
+}
+
+pre {
+  background: var(--surface);
+  border: 1.5px solid var(--line);
+  border-radius: 10px 6px 12px 7px;
+  padding: .85em 1.1em;
+  margin: .2em 0 .85em;
+  line-height: 1.5;
+}
+
+pre > code {
+  background: none;
+  color: var(--ink);
+  padding: 0;
+  font-size: .78em;
+}
+
+.hljs-comment, .hljs-quote { color: #a6a29d; font-style: italic; }
+.hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-doctag { color: #be1730; }
+.hljs-string, .hljs-regexp, .hljs-addition { color: #3f7350; }
+.hljs-number, .hljs-symbol, .hljs-bullet { color: #7a4fbf; }
+.hljs-title, .hljs-section, .hljs-name { color: #1f6fa8; }
+.hljs-built_in, .hljs-class, .hljs-type, .hljs-meta { color: #a8711c; }
+.hljs-attr, .hljs-attribute, .hljs-variable { color: #55524f; }
+.hljs-emphasis { font-style: italic; }
+.hljs-strong { font-weight: 700; }
+
+/* ------------------------------------------- header, footer, page */
+
+header, footer {
+  font-family: var(--font-sans);
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+header { padding: 36px 88px; }
+footer { padding: 36px 88px; text-transform: none; letter-spacing: .02em; }
+
+section::after {
+  font-family: var(--font-hand);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--muted);
+  padding: 30px 88px;
+  content: attr(data-marpit-pagination);
+}
+
+/* ------------------------------------------------- image handling */
+
+figure { margin: 0; }
+img { border-radius: 0; }
+
+/* ==================================================================
+   Layout utilities
+   ================================================================== */
+
+section.left { text-align: left; }
+section.left h1, section.left h2 { text-align: left; }
+section.left h2::after { margin-left: 0; }
+
+/* ---- density: shrink everything on a slide that holds too much ----
+   All sizing in this theme is in em, so changing the section font-size
+   scales headings, lists, spacing and callouts together.
+   Use as <!-- _class: tight --> */
+section.roomy   { font-size: 29px; }
+section.tight   { font-size: 23px; }
+section.tighter { font-size: 20px; }
+section.tiny    { font-size: 17px; }
+
+
+.cols,
+.cols-3 {
+  display: grid;
+  gap: 1.4em;
+  align-items: start;
+  text-align: left;
+  width: 100%;
+}
+
+.cols   { grid-template-columns: 1fr 1fr; }
+.cols-3 { grid-template-columns: repeat(3, 1fr); gap: 1.1em; }
+.cols > div > *:first-child,
+.cols-3 > div > *:first-child { margin-top: 0; }
+
+/* drop a drawing straight onto the page: kills the white box around
+   a scanned or generated PNG so it sits on the paper, not on a card */
+.ink img,
+img.ink {
+  mix-blend-mode: multiply;
+  border-radius: 0;
+}
+
+/* handwritten personal note, inline or as a block */
+.hand {
+  font-family: var(--font-hand);
+  font-size: 1.25em;
+  line-height: 1.25;
+  font-weight: bold;
+  color: var(--ink-soft);
+}
+
+/* a margin note, as if pencilled in beside the text */
+.margin-note {
+  font-family: var(--font-hand);
+  font-size: 1.2em;
+  line-height: 1.3;
+  color: var(--accent-deep);
+  border-left: 2.5px solid var(--accent);
+  padding-left: .7em;
+  text-align: left;
+}
+
+.claim {
+  font-size: 1.55em;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+}
+
+.stat {
+  display: block;
+  font-size: 2.6em;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.035em;
+  color: var(--accent);
+}
+
+.stat-label {
+  display: block;
+  margin-top: .3em;
+  font-family: var(--font-hand);
+  font-size: .82em;
+  color: var(--ink-soft);
+}
+
+.caption {
+  font-family: var(--font-hand);
+  font-size: .95em;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+/* ------------------------------------------------------- callouts
+
+   <div class="box tip">        icon + "Tip" label, green
+   <div class="box warn">       icon + "Warning" label, red
+   <div class="box">            plain frame, no icon or label
+
+   Override the label for any language:
+   <div class="box tip" data-label="Zkus tohle">
+   ------------------------------------------------------------- */
+
+/* hand-drawn looking frame: irregular corner radii, no shadow */
+.box {
+  --c:      var(--line-firm);
+  --c-wash: transparent;
+  position: relative;
+  border: 2px solid var(--c);
+  border-radius: 16px 8px 18px 10px / 10px 18px 8px 16px;
+  background: var(--c-wash);
+  padding: .85em 1.15em;
+  margin: .25em 0 .85em;
+  text-align: left;
+}
+
+.box > *:first-child { margin-top: 0; }
+.box > *:last-child  { margin-bottom: 0; }
+
+/* the label line, only on labelled variants */
+.box.note,
+.box.tip,
+.box.warn,
+.box.key,
+.box.task { padding-top: .75em; }
+
+.box.note::before,
+.box.tip::before,
+.box.warn::before,
+.box.key::before,
+.box.task::before {
+  display: block;
+  font-family: var(--font-hand);
+  font-weight: 700;
+  font-size: 1.05em;
+  line-height: 1.2;
+  letter-spacing: .01em;
+  color: var(--c);
+  margin-bottom: .3em;
+  padding-left: 1.85em;
+}
+
+/* the icon, masked so it always takes the variant colour */
+.box.note::after,
+.box.tip::after,
+.box.warn::after,
+.box.key::after,
+.box.task::after {
+  content: '';
+  position: absolute;
+  left: 1.1em;
+  top: .82em;
+  width: 1.25em;
+  height: 1.25em;
+  background-color: var(--c);
+  -webkit-mask: var(--icon) no-repeat center / contain;
+  mask: var(--icon) no-repeat center / contain;
+}
+
+/* ---- note: circled i, muted blue ---- */
+.box.note {
+  --c: #3b6ea5;
+  --c-wash: #f1f6fb;
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2.7C6.6 2.6 2.5 6.8 2.6 12.1c.1 5.3 4.3 9.3 9.6 9.2 5.3-.1 9.3-4.3 9.2-9.6-.1-5.2-4.2-9-9.4-9z'/%3E%3Cpath d='M11.9 10.8v6'/%3E%3Cpath d='M11.9 7.1v.1'/%3E%3C/svg%3E");
+}
+.box.note::before { content: var(--label, 'Note'); }
+
+/* ---- tip: lightbulb, moss green ---- */
+.box.tip {
+  --c: #3f7350;
+  --c-wash: #f1f7f2;
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9.1 17.3c-.2-2-1.2-3-2.2-4.2A5.9 5.9 0 0 1 12 3.5a5.9 5.9 0 0 1 5.2 9.7c-1 1.2-2 2.1-2.2 4.1'/%3E%3Cpath d='M9.5 17.5h5.1'/%3E%3Cpath d='M10.3 20.4h3.5'/%3E%3C/svg%3E");
+}
+.box.tip::before { content: var(--label, 'Tip'); }
+
+/* ---- warn: triangle, brand red ---- */
+.box.warn {
+  --c: var(--accent);
+  --c-wash: var(--accent-wash);
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3.3 21.1 19.5c.4.7-.1 1.4-.8 1.4H3.8c-.8 0-1.2-.8-.8-1.4L12 3.3z'/%3E%3Cpath d='M12 9.3v4.5'/%3E%3Cpath d='M12 17.2v.1'/%3E%3C/svg%3E");
+}
+.box.warn::before { content: var(--label, 'Warning'); }
+
+/* ---- key: star, ochre. the one thing to remember ---- */
+.box.key {
+  --c: #b8791c;
+  --c-wash: #fdf6ea;
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m12 3.2 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.5 3 1-6.2-4.4-4.4 6.2-.9L12 3.2z'/%3E%3C/svg%3E");
+}
+.box.key::before { content: var(--label, 'Key point'); }
+
+/* ---- task: checkbox, graphite. exercise or homework ---- */
+.box.task {
+  --c: #55524f;
+  --c-wash: #f7f7f6;
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.1 3.9h13.3c.6 0 1.1.5 1.1 1.1v13.2c0 .6-.5 1.1-1.1 1.1H4.2c-.6 0-1.1-.4-1.1-1V5c0-.6.4-1.1 1-1.1z'/%3E%3Cpath d='m7.2 11.6 3.1 3.2 6.8-8.3'/%3E%3C/svg%3E");
+}
+.box.task::before { content: var(--label, 'Your turn'); }
+
+/* Czech labels: add `cs` to the class list, e.g. <div class="box tip cs">.
+   Marp strips data-* and style attributes from raw HTML, so the label has to
+   come from a class or from the deck's own style: block. */
+.box.note.cs::before { content: var(--label, 'Poznámka'); }
+.box.tip.cs::before  { content: var(--label, 'Tip'); }
+.box.warn.cs::before { content: var(--label, 'Pozor'); }
+.box.key.cs::before  { content: var(--label, 'Klíčové'); }
+.box.task.cs::before { content: var(--label, 'Úkol'); }
+
+/* Any other wording: set --label in the deck's frontmatter, e.g.
+     style: |
+       .box.task { --label: 'Cvičení 3'; } */
+
+.chip {
+  display: inline-block;
+  font-family: var(--font-hand);
+  font-size: .95em;
+  font-weight: 600;
+  color: var(--accent-deep);
+  border: 2px solid var(--accent);
+  border-radius: 14px 8px 16px 9px / 9px 16px 8px 14px;
+  padding: .05em .8em;
+}
+
+section.overlay {
+  color: #fff;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, .75);
+}
+
+section.overlay h1,
+section.overlay h2,
+section.overlay h3 { color: #fff; }

@@ -10,8 +10,11 @@ before it lands here.
 
 ## Structure
 
-Nothing fixed yet. Material will be organised into folders per topic as it is
-added.
+- [`lectures/`](lectures/) - slide decks in [Marp](https://marp.app/) format,
+  one Markdown file per lecture, images in a shared `assets/` folder
+- [`themes/`](themes/) - custom Marp themes shared by all decks
+
+More folders will be added as material grows.
 
 ## Usage
 

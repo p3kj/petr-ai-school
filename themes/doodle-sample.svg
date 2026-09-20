@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300">
+  <!-- placeholder doodle in the intended style: fine lines, one red accent -->
+  <g fill="none" stroke="#2a2827" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- thought cloud -->
+    <path d="M250 62c-9-14 6-27 19-21 3-14 22-17 30-6 13-6 27 5 24 18 12 3 13 20 1 25-4 12-20 15-28 7-10 9-27 5-30-7-11 2-20-7-16-16z"/>
+    <!-- stick figure -->
+    <circle cx="96" cy="196" r="19"/>
+    <path d="M96 216v44"/>
+    <path d="M72 232c9 6 16 9 24 9s16-3 25-9"/>
+    <path d="M96 260l-17 30M96 260l18 30"/>
+  </g>
+  <!-- the pull toward the goal, in accent -->
+  <g fill="none" stroke="#e3253d" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M128 192c34-10 62-30 96-52"/>
+    <path d="M224 140l12 2-5 12"/>
+  </g>
+  <g fill="none" stroke="#2a2827" stroke-width="1.6" stroke-linecap="round" opacity=".55">
+    <path d="M62 276h72"/>
+    <path d="M238 108h84"/>
+  </g>
+</svg>

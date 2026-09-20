@@ -1,3 +1,25 @@
+# private brain (separate repo, symlinked locally) and local Claude instructions
+brain
+CLAUDE.local.md
+
+# IDE
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .DS_Store
+
+# node
+node_modules/
+
+# generated lecture exports (the site is the browsable copy)
+lectures/*.html
+lectures/*.pdf
+lectures/*.pptx
+site/quartz/static/slides/
+
+# Obsidian per-user state (shared settings stay tracked)
+wiki/.obsidian/workspace.json
+wiki/.obsidian/workspace-mobile.json
+wiki/.obsidian/workspaces.json
+wiki/.obsidian/cache
+wiki/.obsidian/plugins/

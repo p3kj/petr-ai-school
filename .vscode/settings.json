@@ -1,0 +1,9 @@
+{
+  "markdown.marp.themes": [
+    "./themes/sketch.css",
+    "./themes/ember.css",
+    "./themes/circuit.css",
+    "./themes/console.css",
+    "./themes/dracula.css"
+  ]
+}

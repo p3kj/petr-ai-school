@@ -1,6 +1,6 @@
 ---
 title: Install Claude Code on Windows
-description: "Step by step for Windows 11: open the Terminal app with PowerShell, run one install command, sign in, start your first session. Includes the errors people actually hit."
+description: "Step by step for Windows 11: open the Terminal app with PowerShell, run one install command, sign in, start your first session straight from a folder in Explorer. Includes the errors people actually hit."
 aliases:
   - Windows install
   - install on Windows
@@ -8,7 +8,7 @@ tags:
   - guide
 ---
 
-Twenty minutes, one command to install, one browser sign-in. You do not need to know anything about terminals; this guide shows every step. If you would rather avoid the terminal entirely, the [[Claude Code in the desktop app|desktop app]] is the same agent with buttons.
+Twenty minutes, one command to install, one browser sign-in. You do not need to know anything about terminals; this guide shows every step, and you will never have to type a folder path. If you would rather avoid the terminal entirely, the [[Claude Code in the desktop app|desktop app]] is the same agent with buttons.
 
 ## Before you start
 
@@ -59,20 +59,31 @@ Check it worked:
 claude --version
 ```
 
-You should see a version number followed by `(Claude Code)`. Claude Code keeps itself up to date from now on.
+You should see a version number followed by `(Claude Code)`. Claude Code keeps itself up to date from now on. You can close this window.
 
-## Step 4: Go to a folder
+## Step 4: Open a folder in Terminal, the Explorer way
 
-Claude Code works inside the [[Folder|folder]] you start it from. That folder is your project. For your first session, make a fresh one:
+Claude Code works inside the [[Folder|folder]] you start it from. That folder is your project. You do not need to navigate to it with commands; Explorer does it for you.
 
-```powershell
-mkdir $HOME\Documents\ai-school
-cd $HOME\Documents\ai-school
-```
+1. Open **Explorer**, go to **Documents** and create a new folder called `ai-school` (right-click, **New**, **Folder**).
+2. Right-click the new folder and choose **Open in Terminal**.
 
-`mkdir` creates the folder, `cd` moves you into it. The line in the window now ends with `ai-school>`. Open Explorer and you will find the same folder under Documents. Same folder, two windows.
+![[windows-explorer-open-in-terminal.png]]
+*Right-click a folder in Explorer and choose Open in Terminal. On Windows 11 the item is in the first menu; on older Explorer versions it is in the classic menu. Screenshot: Petr.*
+
+A Terminal window opens already inside that folder: the line ends with `\ai-school>`. That is the whole trick. Whenever you want Claude to work in a folder, right-click it and pick **Open in Terminal**. Same folder, two windows: Explorer shows it as icons, Terminal as a path.
+
+> [!note]- Prefer typing? The command way
+> In any Terminal window, `cd` moves you into a folder and `mkdir` creates one:
+> ```powershell
+> mkdir $HOME\Documents\ai-school
+> cd $HOME\Documents\ai-school
+> ```
+> You can also type `cd `, then drag a folder from Explorer into the Terminal window; Windows pastes the path for you.
 
 ## Step 5: Start Claude Code and sign in
+
+In that Terminal window, type:
 
 ```powershell
 claude
@@ -101,6 +112,9 @@ It is empty, so Claude tells you so. Now put something in it: copy any document 
 > $currentPath = [Environment]::GetEnvironmentVariable('PATH', 'User')
 > [Environment]::SetEnvironmentVariable('PATH', "$currentPath;$env:USERPROFILE\.local\bin", 'User')
 > ```
+
+> [!question]- "Open in Terminal" is missing from the right-click menu
+> Your Terminal app is missing or old. Install or update it from the [Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701). Until then, use the command way from Step 4.
 
 > [!question]- "Could not create SSL/TLS secure channel"
 > Usually an older Windows 10. Paste this line first, then run the install command again:

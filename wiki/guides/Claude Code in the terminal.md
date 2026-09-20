@@ -18,7 +18,15 @@ Not installed yet? [[Install Claude Code on Windows]] or [[Install Claude Code o
 
 ## Starting
 
-Open a terminal, move into your project folder, and type `claude`:
+Get a terminal window inside your project folder, then type `claude`. The easy way needs no typing of paths:
+
+- **Windows:** in Explorer, right-click the folder and choose **Open in Terminal**.
+- **Mac:** drag the folder from Finder onto the Terminal icon in the Dock, or right-click it, **Services**, **New Terminal at Folder**.
+
+![[windows-explorer-open-in-terminal.png]]
+*Explorer's right-click menu. Screenshot: Petr.*
+
+The typing way, if you prefer it:
 
 ```text
 cd Documents\ai-school      (Windows)
@@ -57,7 +65,7 @@ On paid plans a fresh session starts in **Auto**. For the first weeks of the cou
 | `/clear` | Starts a fresh conversation in the same folder. Use it between unrelated tasks; see [[Attractor effect]]. |
 | `/exit` | Leaves Claude Code. Ctrl + D twice does the same. |
 | `/login` | Signs in again or switches accounts. |
-| `/model` | Picks a different model tier. |
+| `/model` | Picks a different model tier. See [[Claude model family]]. |
 | `/context` | Shows how full the [[Context window|context window]] is. |
 
 Back in the terminal (after `/exit`), two starters worth knowing: `claude -c` continues your most recent conversation in this folder, `claude -r` lets you pick an older one.

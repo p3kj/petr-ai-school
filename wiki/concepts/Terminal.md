@@ -27,7 +27,7 @@ Programmers use terminals because they are fast and precise. You will use one be
 | `mkdir` | make a folder | `mkdir ai-school` |
 | `claude` | start Claude Code in the current folder | `claude` |
 
-Everything else you type is a sentence to Claude, not a command.
+Everything else you type is a sentence to Claude, not a command. You can even skip `cd`: on Windows, right-click a folder in Explorer and choose **Open in Terminal**; on a Mac, drag the folder onto the Terminal icon. The window opens already inside that folder.
 
 ## Example
 

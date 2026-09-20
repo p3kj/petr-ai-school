@@ -20,7 +20,7 @@ Using Windows Explorer or Finder, not Claude:
 
 ## 2. Open the same folder in your client
 
-- **Terminal:** `cd Documents\ai-school` (Mac: `cd ~/Documents/ai-school`), then `claude`.
+- **Terminal:** Windows: right-click the folder in Explorer, **Open in Terminal**, then type `claude`. Mac: drag the folder onto the Terminal icon in the Dock, then type `claude`. (Or `cd` into it, if you like typing.)
 - **VS Code:** File, Open Folder, pick `ai-school`, click the Spark icon.
 - **Desktop app:** Code tab, Select folder, pick `ai-school`.
 

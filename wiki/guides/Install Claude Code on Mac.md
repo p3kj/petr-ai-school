@@ -1,6 +1,6 @@
 ---
 title: Install Claude Code on Mac
-description: "Open Terminal, paste one command, sign in, start your first session. Ten minutes on macOS 13 or newer."
+description: "Open Terminal, paste one command, sign in, start your first session from a folder. Ten minutes on macOS 13 or newer."
 aliases:
   - Mac install
   - install on macOS
@@ -37,16 +37,15 @@ You should see a version number followed by `(Claude Code)`. Claude Code keeps i
 
 If you use Homebrew, `brew install --cask claude-code` works too, but it does not update itself; run `brew upgrade claude-code` now and then.
 
-## Step 3: Go to a folder
+## Step 3: Open a folder in Terminal
 
-Claude Code works inside the [[Folder|folder]] you start it from. Make a fresh one for the course:
+Claude Code works inside the [[Folder|folder]] you start it from. Make a folder called `ai-school` in Documents using Finder. Then get a Terminal window inside it, any of these ways:
 
-```bash
-mkdir -p ~/Documents/ai-school
-cd ~/Documents/ai-school
-```
+- **Drag and drop.** Drag the folder from Finder onto the Terminal icon in the Dock. A new window opens inside that folder.
+- **Right-click.** In Finder, right-click the folder, choose **Services**, then **New Terminal at Folder**. If the entry is missing, turn it on once in **System Settings**, **Keyboard**, **Keyboard Shortcuts**, **Services**, under Files and Folders.
+- **Type it.** In any Terminal window: `cd ~/Documents/ai-school`. Or type `cd ` and drag the folder into the window; macOS pastes the path.
 
-`mkdir` creates the folder, `cd` moves you into it. Open Finder and you will find the same folder under Documents. Same folder, two windows.
+The line in the window now ends with `ai-school %`. Same folder, two windows: Finder shows it as icons, Terminal as a path.
 
 ## Step 4: Start Claude Code and sign in
 
@@ -85,7 +84,7 @@ Anything else: the official [installation troubleshooting](https://code.claude.c
 
 - [Terminal guide for new users, macOS section](https://code.claude.com/docs/en/terminal-guide#macos-and-linux)
 - [Advanced setup](https://code.claude.com/docs/en/setup)
-- [Open or quit Terminal on Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) (Apple)
+- [Open or quit Terminal on Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) and [Open new Terminal windows from the Finder](https://support.apple.com/guide/terminal/open-new-terminal-windows-and-tabs-trmlb20c7888/mac) (Apple)
 
 ## Related
 

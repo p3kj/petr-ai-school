@@ -117,8 +117,7 @@ them without edits:
 `task`, plus `cs`)
 
 They live in the theme, not in each deck, so a deck using these themes does
-not need its own `style:` block. (`00-workbench.md` still carries one because
-it is written against the built-in `uncover` theme.)
+not need its own `style:` block.
 
 ## Registering a theme
 

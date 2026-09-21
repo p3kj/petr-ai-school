@@ -240,6 +240,7 @@ plugins:
     enabled: true
     options:
       links:
+        What is new: https://p3kj.github.io/petr-ai-school/news
         GitHub: https://github.com/p3kj/petr-ai-school
         License CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
     layout:

@@ -5,7 +5,6 @@ aliases:
   - folders
   - directory
   - directories
-  - project folder
   - files and folders
 tags:
   - concept
@@ -17,7 +16,7 @@ A folder (programmers say "directory") is exactly that on your computer. A file 
 
 The one idea worth repeating until it is boring: **a folder does not belong to a program.** Windows Explorer shows it as icons. VS Code shows it as a tree. [[Claude Code]] reads it and writes into it. Open the same folder in all three and create a file in one; it appears in the others immediately, because there is only one folder.
 
-When you point an [[Agent|agent]] at a folder, that folder becomes its **project**. Everything it needs should be inside, and everything it produces lands inside. That is the file-first way of working.
+When you point an [[Agent|agent]] at a folder, that folder becomes its [[Project|project]]. Everything it needs should be inside, and everything it produces lands inside. That is the file-first way of working.
 
 ## Example
 
@@ -29,5 +28,6 @@ Files persist; conversations do not. Anything you want the agent to know next we
 
 ## Related
 
+- [[Project]] - a folder with an agent pointed at it
 - [[Context window]] - why files, not chat, are your real memory
 - [[Mental models]] - files first

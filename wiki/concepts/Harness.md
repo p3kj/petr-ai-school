@@ -14,7 +14,7 @@ Concretely, the harness:
 
 - sends your [[Prompt|prompt]] and the current [[Context window|context]] to the model,
 - notices when the model says "I need to read this file" or "run this command",
-- **asks you for permission** when the action could change something,
+- **asks you for permission** when the action could change something, as far as the [[Permission mode|permission mode]] requires,
 - performs the action using a [[Tool|tool]] and gives the result back to the model,
 - loops until the model says it is done, then shows you the outcome.
 
@@ -31,5 +31,6 @@ The harness is where safety and control live. It decides which tools exist, what
 ## Related
 
 - [[Tool]] - the actions a harness can perform
+- [[Permission mode]] - the dial that decides when it stops to ask
 - [[Agent]] - model plus harness plus tools, working in a loop
 - [[Mental models]] - AI = model + harness + tools

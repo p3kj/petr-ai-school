@@ -22,7 +22,7 @@ A prompt is everything you type to the [[Model|model]] in one turn. With an [[Ag
 | **Command** | What exactly should it do? | "Rewrite the ad so it is clearer and shorter, keep every requirement." |
 | **Format** | What should the result look like? | "Return the new ad as Markdown, under 250 words, then a bullet list of what you changed." |
 
-An optional fifth part, **Check**, tells an agent how to know it is done: "Read the result once more and confirm every requirement from the original is still there." Agents use it to verify their own work before reporting back.
+An optional fifth part, **Check**, tells an agent how to know it is done: "Read the result once more and confirm every requirement from the original is still there." Agents use it to verify their own work before reporting back. See [[Verification]].
 
 You do not need all parts every time. A quick question needs only a Command. A task you will hand off needs all of them.
 

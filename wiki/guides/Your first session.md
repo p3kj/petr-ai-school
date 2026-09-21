@@ -24,7 +24,7 @@ Using Windows Explorer or Finder, not Claude:
 - **VS Code:** File, Open Folder, pick `ai-school`, click the Spark icon.
 - **Desktop app:** Code tab, Select folder, pick `ai-school`.
 
-Switch the permission mode to **Manual** (terminal: Shift + Tab until it says Manual; VS Code and desktop: the mode selector next to the prompt). You want to see every question it asks.
+Leave the [[Permission mode|permission mode]] alone for now. Today the tasks are small and you want to watch what happens. From the next session on, the habit to build is Plan first, then Auto.
 
 ## 3. Ask three things
 
@@ -34,7 +34,7 @@ Type each, press Enter, read the answer, and watch what Claude does before it an
 what is in this folder?
 ```
 
-It lists the files. It had to look; notice whether it asked permission or just read them (reading is usually allowed, changing is not).
+It lists the files. It had to look; notice whether it asked permission or just read them (reading inside the [[Project|project]] folder is usually allowed, changing is not).
 
 ```text
 summarise the document in three bullet points, in plain language
@@ -46,14 +46,14 @@ Claude opens the file and reads it. Check the summary against what you know is i
 create a file called notes.md with today's date and the three bullet points
 ```
 
-Now it wants to write. In Manual mode it shows you the file and asks. Approve. Then look in Explorer or Finder: `notes.md` is there. You did not click anything in Explorer; the folder is simply the same folder.
+Now it wants to write. Depending on the mode you are in it either shows you the file and asks, or writes it and tells you what it did. Either way, look in Explorer or Finder afterwards: `notes.md` is there. You did not click anything in Explorer; the folder is simply the same folder.
 
 ## 4. Break it a little
 
 Try one of these, just to see:
 
 - Ask about a file that is not in the folder. Notice it cannot see it, and how it tells you.
-- Ask it to rename the PDF to something sensible based on its content. Watch the permission prompt: this is a command, not a text answer.
+- Ask it to rename the PDF to something sensible based on its content. This one is a command, not a text answer, so watch what it reports doing.
 - Type `/clear` and ask "what did we just do?". It does not know: the whiteboard was wiped. See [[Context window]].
 
 ## 5. Write a proper prompt

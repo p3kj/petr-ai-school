@@ -1,6 +1,6 @@
 ---
 title: Claude Code in the terminal
-description: "What the command-line client looks like once it runs: the welcome screen, how to type, stop, switch permission modes, continue yesterday's conversation, and the six commands you actually need."
+description: "What the command-line client looks like once it runs: the welcome screen, how to type, stop, switch permission modes, continue yesterday's conversation, and the seven commands you actually need."
 aliases:
   - CLI
   - Claude Code CLI
@@ -46,18 +46,22 @@ The welcome screen shows the version, the current [[Model|model]] and the folder
 
 ## Permission modes: who approves what
 
+The full picture is in [[Permission mode]]. In the terminal:
+
 Press **Shift + Tab** to cycle through modes. The current one is shown above the prompt line.
 
 | Mode | What happens | When to use |
 | --- | --- | --- |
-| **Manual** | Claude asks before every edit and every command. You press Enter to approve. | Learning. You see exactly what the [[Harness|harness]] does. |
+| **Manual** | Claude asks before every edit and every command. You press Enter to approve. | You can read the commands it wants to run. |
 | **Accept edits** | File edits happen without asking; other commands still ask. | Once you trust it with a folder. |
-| **Plan** | Claude only reads and proposes a plan. Nothing changes until you approve. | Big tasks. Look before you leap. |
-| **Auto** | A second, small model reviews each action in the background and lets safe ones through. | Long tasks, fewer interruptions. |
+| **Plan** | Claude only reads and writes a plan. Nothing changes until you approve it. | Any task big enough to go wrong. Start here. |
+| **Auto** | A second, small model checks each action in the background and lets the safe ones through. | Doing the work, once you agree with the plan. |
 
-On paid plans a fresh session starts in **Auto**. For the first weeks of the course, switch to **Manual** with Shift + Tab. Watching every permission prompt is the fastest way to understand what an [[Agent|agent]] actually does.
+On paid plans a fresh session starts in **Auto**.
 
-## The six commands you need
+The habit worth building is **Plan, then Auto**: press Shift + Tab to Plan, describe the task, read the plan it writes, and when you agree, choose **"Yes, and use auto mode"**. You approve the work in plain English instead of approving shell commands you cannot read. [[Permission mode]] explains why that matters more than it sounds.
+
+## The seven commands you need
 
 | Type | Does |
 | --- | --- |
@@ -67,6 +71,7 @@ On paid plans a fresh session starts in **Auto**. For the first weeks of the cou
 | `/login` | Signs in again or switches accounts. |
 | `/model` | Picks a different model tier. See [[Claude model family]]. |
 | `/context` | Shows how full the [[Context window|context window]] is. |
+| `/usage` | Shows how much of your five-hour and weekly allowance is left. See [[Usage limits]]. |
 
 Back in the terminal (after `/exit`), two starters worth knowing: `claude -c` continues your most recent conversation in this folder, `claude -r` lets you pick an older one.
 
@@ -84,5 +89,7 @@ One terminal tab is one conversation. Open a second tab (Ctrl + Shift + T in Win
 ## Related
 
 - [[Terminal]] - what a terminal is, in plain words
+- [[Permission mode]] - the four modes in detail
+- [[Usage limits]] - what `/usage` is telling you
 - [[Your first session]] - the homework exercise
 - [[Choosing a client]]

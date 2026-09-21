@@ -46,7 +46,11 @@ Type in the prompt box at the bottom of the panel and press Enter. Select some t
 ![[vs-code-send-prompt.png]]
 *Asking about selected lines. Screenshot: Anthropic, Claude Code docs.*
 
-When Claude wants to change a file, what happens depends on the **permission mode** shown at the bottom of the prompt box. Click it to switch. In **Manual** mode you get a before/after comparison and an approve button for every change. Start there.
+When Claude wants to change a file, what happens depends on the **[[Permission mode|permission mode]]** shown at the bottom of the prompt box. Click it to switch.
+
+For anything bigger than a one-line change, start in **Plan** mode: Claude reads your files and writes out what it means to do, and nothing changes until you approve it. When you agree, pick **"Yes, and use auto mode"** and it gets on with the work.
+
+The one thing VS Code does better than the terminal is showing you a change: every edit appears as a before/after comparison with an approve button, which is readable whether or not you know the language of the file.
 
 ![[vs-code-edits.png]]
 *Reviewing a proposed edit in Manual mode. Screenshot: Anthropic, Claude Code docs.*

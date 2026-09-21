@@ -41,6 +41,17 @@ Decks are rendered by `npm run lectures` into `site/quartz/static/slides/<slug>.
 
 Keep blank lines around raw HTML blocks. After adding a new deck, restart `npm run dev`; the dev server only watches static files that existed at startup.
 
+## The news page
+
+`wiki/news.md` is the changelog students read. One entry per week that something shipped, newest first, directly under the intro.
+
+- The heading is the bare ISO date, `## 2026-09-21`, and nothing else. That keeps the anchor predictable (`/news#2026-09-21`) so the weekly reminder email can link straight to it. The headline goes on the next line in bold.
+- Then bullets, one per new or substantially changed page, each a wikilink plus one line on why a student would care. Group small edits into a closing "Also:" paragraph.
+- Close the entry with a sentence naming the one or two pages to read first.
+- Never rewrite a published entry; past weeks are a record of what students were told.
+
+The footer link and the RSS feed (`/index.xml`, from the `content-index` plugin) both point people here, so the page has to make sense to someone arriving cold.
+
 ## Site configuration
 
 `site/quartz.config.yaml` is the only file in `site/` we own. Colours and fonts mirror `themes/sketch.css`. Plugins deliberately disabled: `@quartz-themes/core`, `cname`, `obsidian-plugin-excalidraw`, `note-properties`, `encrypted-pages`, analytics. `ignorePatterns: [drafts, templates, .obsidian]`.
@@ -54,4 +65,5 @@ A new concept note, guide or lecture page is finished only when a student can re
 3. The Roadmap row for the week that covers it.
 4. `## Terms from this lecture` on the relevant lecture page.
 5. `## Related` links both ways.
-6. Run `npm run build` and `npm run check:links` before committing.
+6. A bullet in the current week's entry on `wiki/news.md` (see below).
+7. Run `npm run build` and `npm run check:links` before committing.

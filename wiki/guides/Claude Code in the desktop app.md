@@ -28,11 +28,13 @@ In the prompt area:
 - Keep **Local** selected. That means Claude works on your machine, in a folder you choose. (**Cloud**, **SSH** and **WSL** are for later.)
 - Click **Select folder** and choose your project folder, for example `Documents\ai-school`.
 - The dropdown next to the send button picks the [[Model|model]]. The default is fine.
-- The mode selector next to it sets how much Claude does without asking. Choose **Manual** for your first sessions.
+- The mode selector next to it sets how much Claude does without asking. Choose **Plan** for your first sessions: Claude tells you what it means to do before it does any of it. See [[Permission mode]].
 
 ## Step 4: Type a task and review
 
-Type what you want and press Enter. In **Manual** mode every proposed change appears as a before/after comparison with **Accept** and **Reject** buttons; your files do not change until you accept. In **Auto** or **Accept edits** the changes land directly and a small `+12 -1` indicator appears; click it to see what changed, file by file.
+Type what you want and press Enter. In **Plan** mode you get a written plan first and nothing is touched; approve it with **"Yes, and use auto mode"** to let Claude carry it out.
+
+In **Manual** mode every proposed change appears as a before/after comparison with **Accept** and **Reject** buttons, and your files do not change until you accept. In **Auto** or **Accept edits** the changes land directly and a small `+12 -1` indicator appears; click it to see what changed, file by file.
 
 You can interrupt with the stop button, or just type a correction and send it.
 

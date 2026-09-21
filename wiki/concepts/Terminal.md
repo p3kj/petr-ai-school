@@ -35,7 +35,7 @@ You open Terminal, type `cd Documents\ai-school`, then `claude`. The prompt chan
 
 ## Why it matters for you
 
-The terminal is the client where nothing is hidden: every file read, every command, every permission prompt is visible as text. The graphical [[Choosing a client|clients]] wrap the same thing in buttons. Ten minutes in a terminal removes most of the mystery about "AI on my computer".
+The terminal is the client where nothing is hidden: every file read, every command, every [[Permission mode|permission prompt]] is visible as text. The graphical [[Choosing a client|clients]] wrap the same thing in buttons. Ten minutes in a terminal removes most of the mystery about "AI on my computer".
 
 ## Related
 

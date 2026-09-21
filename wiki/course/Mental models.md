@@ -30,7 +30,7 @@ You can talk to [[Claude Code]] in a terminal, in a desktop app, inside VS Code,
 This is the big one. What people call "the AI" is really three parts:
 
 - The [[Model|model]] thinks. It reads text and writes text. That is all it can do on its own.
-- The [[Harness|harness]] runs the loop: it gives the model your request, watches what the model wants to do next, asks you for permission, and keeps going until the job is done.
+- The [[Harness|harness]] runs the loop: it gives the model your request, watches what the model wants to do next, asks you for [[Permission mode|permission]], and keeps going until the job is done.
 - The [[Tool|tools]] do the actual work: read a file, write a file, run a program, search the web, open your calendar.
 
 A chat website is a model with almost no tools. It can only talk. Claude Code is the same kind of model with a harness and many tools, so it can act. **More tools, more it can do for you.** That is the real difference between "chatting with AI" and "working with AI". See [[Chat Work and Code|Chat, Work and Code]] for the three products side by side.
@@ -46,13 +46,16 @@ Analogy: a brilliant advisor on the phone versus the same person sitting at your
 > Same model. The difference is the tools it is allowed to use, and you approve each of them. The [[Harness|harness]] asks before it acts.
 
 > [!question] "It remembers everything I ever told it."
-> It sees only what is in the [[Context window|context window]] right now. Memory features exist, but they are a tool built on top, not the default.
+> It sees only what is in the [[Context window|context window]] right now. Memory features exist, but they are a tool built on top, not the default. If you want it to know something next week, put it in a file: an [[Instructions file|instructions file]] in the [[Project|project]] folder is read at the start of every session.
 
 > [!question] "If I tell it not to do something, it will drop the idea."
 > Whatever you mention stays in the context and keeps pulling the answer toward it, forbidden or not. Say what to do instead. See [[Attractor effect]].
 
 > [!question] "This is for programmers."
 > Claude Code is good at code because code is text in files. Your documents, notes and spreadsheets are also text in files. It works the same way for them.
+
+> [!question] "If it sounds confident, it is probably right."
+> How sure it sounds proves nothing. A wrong answer comes out just as calm and well organised as a right one, because the model writes the words that fit best, not the words it has checked. The useful move is to ask it to go and look: see [[Verification]].
 
 ## Related
 

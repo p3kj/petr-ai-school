@@ -16,7 +16,7 @@ tags:
 - Why we picked [[Claude Code]]: it is an [[Agent|agent]] with a strong [[Harness|harness]] and many [[Tool|tools]], and most of us already have access to it. One caveat: it does not [[Image generation|generate images]].
 - [[Chat Work and Code|Chat, Work and Code]]: three ways to use the same AI. Chat is an advisor on the phone. Work is a contractor you hand a folder. Code is a colleague sitting next to you with access to everything you have.
 - The [[Roadmap]] for the coming weeks.
-- Demo: Claude Code in different windows, [[Folder|folders]] and projects, tools, models, [[Context window|context]] and [[Token|tokens]].
+- Demo: Claude Code in different windows, [[Folder|folders]] and [[Project|projects]], tools, models, [[Context window|context]] and [[Token|tokens]].
 
 ## Key takeaway
 
@@ -33,6 +33,9 @@ Install Claude Code and try it. Do not be afraid of the terminal or of the VS Co
 
 Stuck? Each guide ends with the errors people actually hit. Otherwise bring the laptop.
 
+> [!note] If Claude stops and mentions a limit
+> Nothing is broken and nothing is lost. Paid plans include an amount of work per five hours; see [[Usage limits]] for what resets when, and start a fresh conversation with `/clear` between unrelated tasks.
+
 ## Terms from this lecture
 
-[[Model]] · [[Agent]] · [[Harness]] · [[Tool]] · [[Context window]] · [[Token]] · [[Claude Code]] · [[Client]] · [[Terminal]] · [[Chat Work and Code|Chat, Work and Code]]
+[[Model]] · [[Agent]] · [[Harness]] · [[Tool]] · [[Context window]] · [[Token]] · [[Claude Code]] · [[Client]] · [[Terminal]] · [[Chat Work and Code|Chat, Work and Code]] · [[Project]] · [[Permission mode]] · [[Usage limits]]

@@ -18,7 +18,7 @@ A language [[Model|model]] produces text. Pictures come from a different kind of
 It tells you it cannot generate a picture and offers what it can do:
 
 - **Draw with code.** Diagrams, charts, icons and simple illustrations as SVG, HTML, or Mermaid. These are text files that browsers display as graphics, so this works surprisingly well for anything schematic.
-- **Use a connected image tool.** Through a connector (MCP) Claude can call an image model such as GPT Image or Flux and hand you the result. Then it "generates images" like any other product, because it gained the tool.
+- **Use a connected image tool.** Through a [[Connector|connector (MCP)]] Claude can call an image model such as GPT Image or Flux and hand you the result. Then it "generates images" like any other product, because it gained the tool.
 - **Work with the picture you bring.** Claude can look at images: describe a screenshot, read a chart, check a design. Not generating is not the same as not seeing.
 
 ## Example

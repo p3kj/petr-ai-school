@@ -9,6 +9,7 @@ Petr's AI School is run by Petr Jaroš for colleagues at OnSinch and Shameless, 
 
 - One session of about an hour every week, 8 to 12 sessions in total.
 - Small homework after each session, because practice is where it clicks.
+- A short email between sessions pointing at [[news|what is new]] in the wiki.
 - Open discussion afterwards, often with a beer.
 
 ## Who it is for

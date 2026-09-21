@@ -8,7 +8,11 @@ configuration:
   pageTitleSuffix: " | Petr's AI School"
   enableSPA: true
   enablePopovers: true
-  analytics: null
+  # GoatCounter: cookie-free, no personal data, no consent banner needed.
+  # Stats are public at https://petr-ai-school.goatcounter.com; disclosed on wiki/about.md.
+  analytics:
+    provider: goatcounter
+    websiteId: petr-ai-school
   locale: en-US
   baseUrl: p3kj.github.io/petr-ai-school
   ignorePatterns:

@@ -32,6 +32,8 @@ Seven new pages in the [[concepts/index|Glossary]], covering the terms that come
 
 [[Mental models]] also gained two corrected beliefs, one about confidence not being proof and one about what the agent actually remembers.
 
+**The site now counts page visits.** A cookie-free counter, nothing stored in your browser, no profile of you. The numbers are public, so you can see exactly what is recorded: [petr-ai-school.goatcounter.com](https://petr-ai-school.goatcounter.com). The [[about#What this site counts|About page]] lists what it does and does not collect, and how to block it if you would rather not be counted.
+
 If you are installing Claude Code this week, read [[Permission mode]] and [[Usage limits]]. Those two are what surprise people first.
 
 ## 2026-09-20

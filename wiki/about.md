@@ -33,6 +33,21 @@ A laptop you can install software on, a Claude account provided through work, an
 
 Found a typo, a broken link or an explanation that did not land? Tell Petr directly, or open an issue on [GitHub](https://github.com/p3kj/petr-ai-school/issues). Every page in this wiki is a plain text file in that repository, which is itself one of the things you will learn to work with.
 
+## What this site counts
+
+This wiki counts page visits, so Petr can see whether it is being used between sessions and which pages are worth writing more of. The counter is [GoatCounter](https://www.goatcounter.com/), chosen because it collects as little as possible.
+
+**The numbers are public. You can see exactly what is recorded about you: [petr-ai-school.goatcounter.com](https://petr-ai-school.goatcounter.com).**
+
+What it records: which page was opened and its title, when, the page you came from, your screen width, and which browser, operating system and country the request came from.
+
+What it does not record: no cookies, nothing stored in your browser, no ID that follows you around, no IP address kept, and no profile of you as a person. To count a repeat visit as one person rather than two, it holds your IP address in memory for a few hours and never writes it down. The data sits on servers in Finland and Germany.
+
+Two honest notes:
+
+- This class is small. Nothing personal is stored, but if one person reads a page at 23:00 on a Tuesday, that is not hard to guess. Petr reads these numbers as "is anyone using this", never as a report on individuals.
+- If you would rather not be counted, any tracker or content blocker stops it, and nothing on this site breaks when you block it. The browser "do not track" setting will not help you here: almost no site reads it any more and this counter does not either.
+
 ## License
 
 All content is published under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Use it, share it, adapt it, keep the attribution and the same license.

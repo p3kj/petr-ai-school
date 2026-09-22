@@ -54,7 +54,7 @@ Try one of these, just to see:
 
 - Ask about a file that is not in the folder. Notice it cannot see it, and how it tells you.
 - Ask it to rename the PDF to something sensible based on its content. This one is a command, not a text answer, so watch what it reports doing.
-- Type `/clear` and ask "what did we just do?". It does not know: the whiteboard was wiped. See [[Context window]].
+- Type `/clear` and ask "what did we just do?". It does not know: the whiteboard was wiped. See [[Context window]] and [[Session]].
 
 ## 5. Write a proper prompt
 
@@ -74,4 +74,5 @@ Stuck at any step? Note where, and bring the laptop. The [[Install Claude Code o
 
 - [[Mental models]] - files first, and why "same folder, different window" matters
 - [[Claude Code in the terminal]] - the essential commands
+- [[Claude Code cheat sheet]] - every key and command on one page
 - [[Attractor effect]] - why `/clear` between tasks is a good habit

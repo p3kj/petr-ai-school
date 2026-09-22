@@ -235,6 +235,8 @@ pre > code {
 
 header, footer {
   font-family: var(--font-sans);
+  text-align: right;
+  right: 0px;
   color: var(--muted);
   font-size: 14px;
   font-weight: 500;
@@ -242,16 +244,17 @@ header, footer {
   text-transform: uppercase;
 }
 
-header { padding: 36px 88px; }
-footer { padding: 36px 88px; text-transform: none; letter-spacing: .02em; }
+header { padding: 6px 60px; }
+footer { padding: 6px 60px; text-transform: none; letter-spacing: .02em; text-align: center;}
 
 section::after {
   font-family: var(--font-hand);
   font-size: 22px;
   font-weight: 600;
   color: var(--muted);
-  padding: 30px 88px;
+  padding: 6px 60px;
   content: attr(data-marpit-pagination);
+
 }
 
 /* ------------------------------------------------- image handling */

@@ -21,6 +21,9 @@ Learning resource for Petr's AI School: a course teaching non-programmers to wor
 ```sh
 npm run setup      # npm ci here and in site/ (first time or after pulling)
 npm run lectures   # render decks (HTML + PDF); add --no-pdf via npm run lectures:html
+npm run watch      # live deck preview at http://localhost:4321/<deck>.md (reloads on save)
+npm run watch:html # same, but rendering lectures/<deck>.html next to the source (gitignored)
+npm run watch:scroll # reading view: all slides stacked vertically, one scrollbar
 npm run dev        # render decks (HTML only) then serve the site at http://localhost:8080
 npm run build      # full production build into site/public
 npm run site:upgrade   # pull newer Quartz via git subtree, then npm install in site/

@@ -1,6 +1,6 @@
 ---
 title: Claude Code in the terminal
-description: "What the command-line client looks like once it runs: the welcome screen, how to type, stop, switch permission modes, continue yesterday's conversation, and the seven commands you actually need."
+description: "What the command-line client looks like once it runs: the welcome screen, how to type, stop, switch permission modes, continue yesterday's conversation, and the commands you need first."
 aliases:
   - CLI
   - Claude Code CLI
@@ -41,8 +41,10 @@ The welcome screen shows the version, the current [[Model|model]] and the folder
 - Type a sentence, press **Enter**. That is a [[Prompt|prompt]].
 - Claude answers in text, and when it wants to act (read a file, write a file, run a command) it either asks you first or shows you what it did, depending on the permission mode below.
 - **Esc** interrupts Claude mid-work. Nothing breaks; type what you want instead.
+- **Esc twice** on an empty line opens the rewind menu: pick an earlier point and the files Claude changed go back to how they were. See [[Session]].
 - **Arrow up** brings back your previous prompt. You cannot click on things in a terminal; use the arrow keys.
-- Type `@` and the start of a filename to point Claude at a specific file: `summarise @notes.md`.
+- Type `@` and the start of a filename to point Claude at a specific file: `summarise @notes.md`. That is a [[File mention|file mention]]; dragging a file into the window does the same.
+- Type `?` on an empty line and every keyboard shortcut is listed. The full set is on the [[Claude Code cheat sheet]].
 
 ## Permission modes: who approves what
 
@@ -61,17 +63,21 @@ On paid plans a fresh session starts in **Auto**.
 
 The habit worth building is **Plan, then Auto**: press Shift + Tab to Plan, describe the task, read the plan it writes, and when you agree, choose **"Yes, and use auto mode"**. You approve the work in plain English instead of approving shell commands you cannot read. [[Permission mode]] explains why that matters more than it sounds.
 
-## The seven commands you need
+## The commands you need first
+
+Anything that starts with `/` is a [[Slash command|slash command]]: an instruction to the program, not to the model. Type `/` alone and the whole menu opens. These are the ones to learn first; the full list is on the [[Claude Code cheat sheet]].
 
 | Type | Does |
 | --- | --- |
 | `/help` | Lists everything available. |
-| `/clear` | Starts a fresh conversation in the same folder. Use it between unrelated tasks; see [[Attractor effect]]. |
+| `/clear` | Starts a fresh [[Session|session]] in the same folder. The old one is saved. Use it between unrelated tasks; see [[Attractor effect]]. |
+| `/resume` | Shows your saved sessions in this folder and brings back the one you pick. |
 | `/exit` | Leaves Claude Code. Ctrl + D twice does the same. |
 | `/login` | Signs in again or switches accounts. |
 | `/model` | Picks a different model tier. See [[Claude model family]]. |
 | `/context` | Shows how full the [[Context window|context window]] is. |
 | `/usage` | Shows how much of your five-hour and weekly allowance is left. See [[Usage limits]]. |
+| `/statusline` | Sets up a line under the prompt with the model, the folder and the context percentage. Say what you want in plain English. See [[Set up a status line]]. |
 
 Back in the terminal (after `/exit`), two starters worth knowing: `claude -c` continues your most recent conversation in this folder, `claude -r` lets you pick an older one.
 
@@ -88,8 +94,10 @@ One terminal tab is one conversation. Open a second tab (Ctrl + Shift + T in Win
 
 ## Related
 
+- [[Claude Code cheat sheet]] - every key and command on one page
 - [[Terminal]] - what a terminal is, in plain words
 - [[Permission mode]] - the four modes in detail
+- [[Session]] - `/clear`, `/resume` and the rewind
 - [[Usage limits]] - what `/usage` is telling you
 - [[Your first session]] - the homework exercise
 - [[Choosing a client]]

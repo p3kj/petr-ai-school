@@ -99,7 +99,7 @@ Type a sentence and press Enter:
 what is in this folder?
 ```
 
-It is empty, so Claude tells you so. Now put something in it: copy any document into `Documents\ai-school` using Explorer, then ask again. Continue with [[Your first session]] for the homework exercise and the essentials (Esc stops Claude, `/help` lists commands, `/exit` leaves).
+It is empty, so Claude tells you so. Now put something in it: copy any document into `Documents\ai-school` using Explorer, then ask again. Continue with [[Your first session]] for the homework exercise and the essentials (Esc stops Claude, `/help` lists commands, `/exit` leaves; all of them are on the [[Claude Code cheat sheet]]).
 
 ## If something goes wrong
 

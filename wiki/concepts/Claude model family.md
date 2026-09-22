@@ -56,12 +56,12 @@ Not worth it for one-line questions or reformatting a table. Sonnet does those a
 ## Which one you get without choosing
 
 - **claude.ai and the desktop app**: every paid plan (Pro, Max, Team, Enterprise) can use Fable, Opus and Sonnet; pick in the model menu next to the prompt. Max does not unlock extra models, it buys more usage.
-- **Claude Code**: starts with Opus 5 on Max, Team Premium and Enterprise, and with Sonnet 5 on Pro and Team Standard. Type `/model` to see the picker, or `/model opus`, `/model sonnet`, `/model haiku`, `/model fable` to switch. `/model opusplan` uses Opus to plan and Sonnet to execute, a sensible money-saver.
+- **Claude Code**: starts with Opus 5 on Max, Team Premium and Enterprise, and with Sonnet 5 on Pro and Team Standard. Type the [[Slash command|slash command]] `/model` to see the picker, or `/model opus`, `/model sonnet`, `/model haiku`, `/model fable` to switch. `/model opusplan` uses Opus to plan and Sonnet to execute, a sensible money-saver.
 - **Subscriptions do not bill per token.** The prices above matter if you pay for the API directly. On a subscription they still matter indirectly: a bigger model uses up your usage allowance faster.
 
 ## The second dial: effort
 
-Since 2026 the bigger models have an **effort** setting (low, medium, high, xhigh, max) that controls how long they think before answering. Anthropic's own advice: "tuning effort is often a better lever than switching models". In Claude Code, `/effort` opens a slider. Low for quick chores, high (the default) for normal work, xhigh or max when the task is genuinely hard and you can wait.
+Since 2026 the bigger models have an **[[Effort|effort]]** setting (low, medium, high, xhigh, max) that controls how long they think before answering. Anthropic's own advice: "tuning effort is often a better lever than switching models". In Claude Code, `/effort` opens a slider. Low for quick chores, high (the default) for normal work, xhigh or max when the task is genuinely hard and you can wait.
 
 ## The same roles at other labs
 
@@ -102,4 +102,5 @@ Three things to notice:
 
 - [[Model]] - what a model is and who makes them
 - [[Token]] and [[Context window]] - what the prices and the "sees at once" column measure
+- [[Effort]] - the second dial in detail
 - [[Claude Code in the terminal]] - `/model` and `/effort` in practice

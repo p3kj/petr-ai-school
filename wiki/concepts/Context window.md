@@ -24,11 +24,12 @@ You spend an hour with an agent on a report. Later you ask "what was the number 
 Three habits come from this:
 
 - **Give it what it needs.** Point to the file. Do not assume it remembers.
-- **Start fresh for a new task.** A clean window is faster, cheaper and less confused than a crowded one.
+- **Start fresh for a new task.** A clean window is faster, cheaper and less confused than a crowded one. `/clear` starts a new [[Session|session]]; the old one is kept.
 - **Write things down in files.** Files persist; the window does not. Notes in a [[Folder|folder]] the agent can read are your real memory.
 
 ## Related
 
 - [[Token]] - how the window is measured
+- [[Session]] - one window per conversation, and how to start a new one
 - [[Folder]] - where durable memory lives
 - [[Mental models]] - the belief "it remembers everything" and why it is wrong

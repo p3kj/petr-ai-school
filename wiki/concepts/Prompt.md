@@ -34,7 +34,7 @@ Better: "Role: you are a careful finance analyst. Context: `q3-report.md` has wr
 
 ## Why it matters for you
 
-Most disappointing results come from thin prompts, not from a weak model. A minute spent on Context and Format saves ten minutes of back and forth. Two things to know about agents: **Role** matters less than in a chat window, because the [[Harness|harness]] already gives the agent one, and **Context** mostly means pointing at the right files. Later in the course you will save good prompts as reusable instructions so you write them once.
+Most disappointing results come from thin prompts, not from a weak model. A minute spent on Context and Format saves ten minutes of back and forth. Two things to know about agents: **Role** matters less than in a chat window, because the [[Harness|harness]] already gives the agent one, and **Context** mostly means pointing at the right files, see [[File mention]]. Later in the course you will save good prompts as reusable instructions so you write them once.
 
 ## Related
 

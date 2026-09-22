@@ -40,7 +40,7 @@ You can interrupt with the stop button, or just type a correction and send it.
 
 ## Good to know
 
-- Type `@` and a filename to point Claude at a file, or drag a file into the prompt box.
+- Type `@` and a filename to point Claude at a file, or drag a file into the prompt box. See [[File mention]].
 - Each session is its own conversation. **+ New Session** (Ctrl + N) starts another, even in another folder.
 - **Ctrl + `** opens a terminal pane inside the app, if you get curious about what the [[Claude Code in the terminal|terminal client]] looks like.
 - The app includes Claude Code itself; you do not need to install anything else for the Code tab. The terminal command `claude` is a separate install.

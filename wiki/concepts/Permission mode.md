@@ -80,3 +80,4 @@ This is the dial that turns "AI on my computer" from an act of faith into a deci
 - [[Project]] - the folder the permission applies inside
 - [[Prompt]] - where you set the limits in your own words
 - [[Claude Code in the terminal]] - where to find the mode indicator
+- [[Claude Code cheat sheet]] - the four modes with the label each one shows

@@ -24,7 +24,7 @@ You spend twenty minutes arguing with the agent about a wrong approach, then fin
 
 ## Why it matters for you
 
-Treat the context like a whiteboard in a meeting: put on it what you want the model to copy, keep off it what you do not, and wipe it (new session) when the conversation has gone sideways. This single habit fixes a large share of "the AI is being stubborn" moments.
+Treat the context like a whiteboard in a meeting: put on it what you want the model to copy, keep off it what you do not, and wipe it (a new [[Session|session]]) when the conversation has gone sideways. This single habit fixes a large share of "the AI is being stubborn" moments.
 
 ## Related
 

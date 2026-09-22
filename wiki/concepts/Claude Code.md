@@ -30,4 +30,5 @@ Anthropic sells the same model in three products, see [[Chat Work and Code|Chat,
 - [[Agent]], [[Harness]], [[Tool]] - the parts it is made of
 - [[Project]] and [[Instructions file]] - the folder it works in and the rules it reads there
 - [[Choosing a client]] and [[Your first session]] - installing it and the first twenty minutes
+- [[Claude Code cheat sheet]] - keys, commands and modes on one page
 - [[Roadmap]] - when we install it and what we do first

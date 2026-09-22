@@ -34,7 +34,18 @@ Seven new pages in the [[concepts/index|Glossary]], covering the terms that come
 
 **The site now counts page visits.** A cookie-free counter, nothing stored in your browser, no profile of you. The numbers are public, so you can see exactly what is recorded: [petr-ai-school.goatcounter.com](https://petr-ai-school.goatcounter.com). The [[about#What this site counts|About page]] lists what it does and does not collect, and how to block it if you would rather not be counted.
 
-If you are installing Claude Code this week, read [[Permission mode]] and [[Usage limits]]. Those two are what surprise people first.
+**Later in the week: the controls of Claude Code**, ready for lecture 02.
+
+- [[Claude Code cheat sheet]] - every key, slash command and permission mode on one printable page. Keep it next to the terminal.
+- [[Set up a status line]] - a line under the prompt with the model, the folder and how full the context is. One sentence sets it up, and you watch Claude write the two files itself.
+- [[Slash command]] - what the `/` menu is, and the ten commands to know first.
+- [[Session]] - one conversation in one folder. Why `/clear` loses nothing, how `/resume` brings a session back, and how Esc Esc undoes file changes.
+- [[Effort]] - the second dial next to the model: how long it thinks before it answers.
+- [[File mention]] - pointing at a file with `@`, dragging it in, or pasting a screenshot.
+
+**Changed:** the [[Roadmap]] moved. Week 02 is now "Meet Claude Code", a hands-on tour of the controls, since everyone installed it for homework. Week 04 becomes your first real task instead of the install.
+
+If you are installing Claude Code this week, read [[Permission mode]] and [[Usage limits]]. Those two are what surprise people first. Once it runs, print the [[Claude Code cheat sheet]].
 
 ## 2026-09-20
 

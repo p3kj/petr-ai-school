@@ -32,5 +32,7 @@ The harness is where safety and control live. It decides which tools exist, what
 
 - [[Tool]] - the actions a harness can perform
 - [[Permission mode]] - the dial that decides when it stops to ask
+- [[Session]] - the harness saves the conversation and snapshots files before it changes them
+- [[Slash command]] - how you give the harness itself an instruction
 - [[Agent]] - model plus harness plus tools, working in a loop
 - [[Mental models]] - AI = model + harness + tools

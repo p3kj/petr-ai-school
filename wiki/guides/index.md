@@ -13,6 +13,11 @@ Guides are hands-on. Each one walks through a single task, shows the steps for W
 4. [[Your first session]] - the homework after lecture 01. Works in any client.
 5. [[Claude Code in the terminal]] - the essentials once it runs: modes, commands, several sessions.
 
+## Finding your way around
+
+- [[Claude Code cheat sheet]] - keys, slash commands, permission modes and their labels, all on one printable page.
+- [[Set up a status line]] - the live demo from lecture 02: one sentence, and Claude writes the two files itself.
+
 ## Coming with later sessions
 
 - Markdown in ten minutes

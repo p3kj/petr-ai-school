@@ -40,7 +40,7 @@ There is a fourth file worth knowing if you share a folder through Git: `CLAUDE.
 
 Even easier: just tell the agent. "Add that to CLAUDE.md" works, and it is how most rules actually get written.
 
-To check which files loaded in the session you are in, type `/context` and look at the list of memory files.
+To check which files loaded in the [[Session|session]] you are in, type the [[Slash command|slash command]] `/context` and look at the list of memory files.
 
 > [!question]- I want to open the `.claude` folder myself. Where is it?
 > **On Windows.** You will not find it by clicking through folders, so do not try. Open Explorer, press **Ctrl + L** to jump to the address bar, type this and press Enter:

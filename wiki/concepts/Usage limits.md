@@ -25,13 +25,13 @@ What gets counted is [[Token|tokens]], not messages. One short question inside a
 
 The [[Model|model]] you choose matters most. Opus uses much more of your allowance than [[Sonnet]] for the same job, and [[Haiku]] uses the least. Max plans come in two sizes, 5x and 20x the Pro allowance.
 
-Type `/usage` in [[Claude Code]] to see where you stand. On claude.ai the same thing is under Settings, then Usage, with progress bars.
+Type the [[Slash command|slash command]] `/usage` in [[Claude Code]] to see where you stand. On claude.ai the same thing is under Settings, then Usage, with progress bars.
 
 ## What to avoid
 
 - **Do not go back to a long old conversation.** Picking up a big conversation from yesterday, or from several hours ago, is the fastest way to empty your allowance. Everything in it has to be read again from the start, so the bigger it was, the more it costs to say one more sentence to it. Start a new conversation and point it at the files instead.
 - **Do not use a strong model for simple work.** Reformatting text, renaming files, tidying a list: use [[Sonnet]] or even [[Haiku]]. They are fast and cheap. You do not need the deep thinking of [[Opus]] or [[Fable]] to change a date format.
-- **Do not keep one conversation open all day.** Type `/clear` when you move to a different task. It costs nothing and it drops the pile of context you are otherwise paying for on every single turn. See [[Attractor effect]] for the other, bigger reason to do this.
+- **Do not keep one conversation open all day.** Type `/clear` when you move to a different task; that starts a new [[Session|session]]. It costs nothing and it drops the pile of context you are otherwise paying for on every single turn. See [[Attractor effect]] for the other, bigger reason to do this.
 - **Do not paste long documents into the chat.** Put the file in the [[Project|project]] folder and say "read the contract in this folder". Pasted text sits in the conversation and is paid for again on every turn after that. A file is read when it is needed.
 - **Do not ask for work that is already done.** If the result is in a file, point at the file. Asking the agent to redo it from memory pays twice for the same thing.
 - **Do not send a vague request to an expensive model.** A vague question to Opus is the worst of both: it costs the most and comes back needing three rounds of correction. A clear [[Prompt|prompt]] to Sonnet usually beats a lazy one to Opus, and costs a fraction.

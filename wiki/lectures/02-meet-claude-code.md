@@ -3,7 +3,6 @@ title: "02 · Meet Claude Code"
 description: "Second session. A hands-on tour of Claude Code: start it in a folder, watch it use tools, learn the commands, keys and modes, and set up a status line."
 tags:
   - lecture
-draft: true
 ---
 
 <iframe src="/static/slides/02-meet-claude-code.html" title="Slides: Meet Claude Code" loading="lazy" allow="fullscreen" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0;border-radius:6px;background:#fff"></iframe>

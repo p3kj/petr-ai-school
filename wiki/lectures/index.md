@@ -8,5 +8,6 @@ One page per session. Each page has the slides embedded (click them, then use th
 | # | Lecture | When |
 | --- | --- | --- |
 | 01 | [[01-introduction-to-ai\|Introduction to AI]] | September 2026 |
+| 02 | [[02-meet-claude-code\|Meet Claude Code]] | September 2026 |
 
 Upcoming sessions are listed in the [[Roadmap]].

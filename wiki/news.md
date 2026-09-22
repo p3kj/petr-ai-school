@@ -36,6 +36,7 @@ Seven new pages in the [[concepts/index|Glossary]], covering the terms that come
 
 **Later in the week: the controls of Claude Code**, ready for lecture 02.
 
+- [[02-meet-claude-code|Lecture 02: Meet Claude Code]] - the slides, the notes on what we covered and the homework. Watch it full screen or download the PDF.
 - [[Claude Code cheat sheet]] - every key, slash command and permission mode on one printable page. Keep it next to the terminal.
 - [[Set up a status line]] - a line under the prompt with the model, the folder and how full the context is. One sentence sets it up, and you watch Claude write the two files itself.
 - [[Slash command]] - what the `/` menu is, and the ten commands to know first.

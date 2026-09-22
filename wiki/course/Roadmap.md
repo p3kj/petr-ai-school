@@ -10,7 +10,7 @@ This is a living plan. Sessions get reordered, merged or added depending on how 
 | Week | Topic | What you will be able to do |
 | --- | --- | --- |
 | 01 | [[01-introduction-to-ai\|Introduction to AI]] | Know what this course is, where AI stands today, and why we chose [[Claude Code]]. |
-| 02 | Meet Claude Code | Find your way around [[Claude Code]]: open it in a folder, use [[Slash command\|slash commands]] and keys, watch the [[Harness\|harness]] call [[Tool\|tools]], switch [[Permission mode\|permission modes]], set up a [[Set up a status line\|status line]]. See the [[Claude Code cheat sheet]]. |
+| 02 | [[02-meet-claude-code\|Meet Claude Code]] | Find your way around [[Claude Code]]: open it in a folder, use [[Slash command\|slash commands]] and keys, watch the [[Harness\|harness]] call [[Tool\|tools]], switch [[Permission mode\|permission modes]], set up a [[Set up a status line\|status line]]. See the [[Claude Code cheat sheet]]. |
 | 03 | Files first | Work confidently with [[Folder\|folders]] and files; open the same folder in Explorer, VS Code and Claude Code. |
 | 04 | Your first real task | Pick a task from your own work, make it a [[Project\|project]] folder, write a full [[Prompt\|prompt]] (Role, Context, Command, Format), plan it in [[Permission mode\|Plan mode]] and let Auto do the work. Builds on [[Your first session]]. |
 | 05 | Context, models and tokens | Understand the [[Context window\|context window]] and the [[Attractor effect\|attractor effect]], pick a [[Model\|model]] tier from the [[Claude model family\|Claude model family]], read what a [[Token\|token]] costs and why you hit [[Usage limits\|usage limits]]. |

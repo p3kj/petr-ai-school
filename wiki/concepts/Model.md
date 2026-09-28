@@ -21,14 +21,14 @@ A handful of labs build the **frontier** models, the most capable ones at any mo
 
 | Lab | Model family | Note |
 | --- | --- | --- |
-| Anthropic | Claude (Fable 5.1, Opus 5, Sonnet 5, Haiku 4.5) | What we use in this course |
+| Anthropic | Claude (Fable 5.1, Opus 5.5, Sonnet 5, Haiku 4.5) | What we use in this course |
 | OpenAI | GPT (GPT-6 Astra, GPT-5.6) | Powers ChatGPT |
 | Google | Gemini | Built into Google's products |
 | Meta | Muse | |
 | xAI | Grok | Built into X |
 | Zhipu, Moonshot, Alibaba, DeepSeek | GLM, Kimi, Qwen, DeepSeek | Chinese labs, often released as open weights you can run yourself |
 
-Names and rankings change every few months. The picture below is one independent snapshot, the Artificial Analysis Intelligence Index, which averages ten tests. Use it to see who is at the frontier, not to pick a model for a task.
+Names and rankings change every few months. The picture below is one independent snapshot, the Artificial Analysis Intelligence Index, which averages ten tests. [[Benchmark]] explains how to read charts like this and lists the sites that keep them up to date. Use it to see who is at the frontier, not to pick a model for a task.
 
 ![[artificial-analysis-intelligence-index-2026-09-15.png]]
 
@@ -57,6 +57,7 @@ When a chat website "cannot access your files", that is not a limitation of inte
 ## Related
 
 - [[Harness]] and [[Tool]] - what turns a model into something useful
+- [[Benchmark]] - the tests behind charts like the one above, and where to find the current ones
 - [[Chat Work and Code|Chat, Work and Code]] - same models, three products
 - [[Token]] - what a model reads and writes
 - [[Context window]] - how much it can see at once

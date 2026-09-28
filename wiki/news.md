@@ -12,7 +12,21 @@ tags:
 This wiki grows every week. So that you do not have to go looking, everything new is listed here, newest first. Read the top entry, follow the links in it, and you are up to date.
 
 > [!tip] Linking to one week
-> Every entry has its own address, made from its date. The one below is at `/news#2026-09-21`. That is the link in the weekly email, so you can go straight to the week you missed.
+> Every entry has its own address, made from its date. The one below is at `/news#2026-09-28`. That is the link in the weekly email, so you can go straight to the week you missed.
+
+## 2026-09-28
+
+**Reading the screen, working safely, and a new Opus.**
+
+- [[Working safely]] - the dos and don'ts: work on a copy, plan first, or say "do not change anything yet, just talk about it". Also what Esc Esc can and cannot undo. Read it before the homework: Esc Esc cannot undo moving files into folders.
+- [[Reading the Claude Code screen]] - the screen looks like programmer text, but you only need the plain sentences. Which lines to read, and when to press Esc.
+- [[Agent loop]] - gather context, take action, check the result, repeat. The diagram from the lecture, and where you fit in.
+- [[Compaction]] - what happens when a session gets too long, and why in normal work you should never get there.
+- [[Benchmark]] - how AI models are tested, the sites that show who leads right now, and how not to be fooled by a chart.
+
+**Changed:** Anthropic released Opus 5.5 on 22 September. It is now the model Claude Code starts with, at medium effort, and it is cheaper than Opus 5. [[Claude model family]] and [[Effort]] have the new facts and a chart of effort against cost against score. [[Chat Work and Code|Chat, Work and Code]] now says where Cowork runs: in Anthropic's cloud by default. [[Context window]] had one thing slightly wrong: when it is full, Claude Code does not simply drop old content. It clears old tool results and then summarises.
+
+Before the homework, read [[Working safely]]. If you wonder which model to use, look at the chart on [[Effort]].
 
 ## 2026-09-21
 

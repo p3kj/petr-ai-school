@@ -24,7 +24,7 @@ footer: 'AI School - #2 Meet Claude Code | CC BY-SA 4.0'
 
 ## What surprised you?
 
-### Homework 01 - setup Claude Code
+### Homework 01 - set up Claude Code
 
 - What did you tell it to do?
 - What was the output?
@@ -35,7 +35,7 @@ footer: 'AI School - #2 Meet Claude Code | CC BY-SA 4.0'
 
 ## Today
 
-Lets discover what Claude Code has to offer.
+Let's discover what Claude Code has to offer.
 
 <div class="cols">
 <div>
@@ -81,7 +81,7 @@ Same folder, different window.
 
 <div class="box task">
 
-Lets open your `Downloads` folder - there is going to be definitely something interesting.
+Let's open your `Downloads` folder - there is going to be definitely something interesting.
 
 </div>
 
@@ -141,14 +141,14 @@ Gather context, take action, check the result, repeat. You can press <kbd>Esc</k
 ### Chat
 Model only.
 Cannot see your files.
-Set of limited tools from Anhropic.
+Set of limited tools from Anthropic.
 
 </div>
 <div>
 
 ### Work
 Model + tools inside one folder you hand over.
-Tools living party in Anthropic Cloud.
+Tools living partly in Anthropic Cloud.
 
 </div>
 <div>
@@ -249,7 +249,7 @@ Type: `summarise @notes.md in three bullets`
 
 <div class="box task">
 
-Type: `/statusline show the model, the folder name and how full the context is in %. Like "Opus | C:/Users/Petr | 85%`
+Type: `/statusline show the model, the folder name and how full the context is in %. Like "Opus | C:/Users/Petr | 85%"`
 
 </div>
 
@@ -282,7 +282,7 @@ Fallback: if /statusline fails on a Windows laptop, open the wiki guide and show
 ### Effort: how long it thinks
 `/effort low` up to `/effort max`
 
-- high is the default
+- the default: medium on Opus 5.5, high on the others
 - low for chores
 - max when it is hard and you can wait
 
@@ -305,12 +305,19 @@ Type `/model`, look, press <kbd>Esc</kbd>.
 
 ---
 
+<!-- _footer: '' -->
+
+![bg fit](assets/effort-score-cost-claude-2026-09.png)
+
+
+---
+
 ## Context: the whiteboard
 
 - `/context` shows how full it is. Your status line shows the % all the time.
 - `/clear` hangs up a new whiteboard. The old one is saved.
 - `/resume` brings an old one back.
-- `/compact` summarises the whiteboard to make room.
+- `/compact` summarises the whiteboard to make room. You should never need it.
 - From the terminal: `claude -c` continues the last one.
 
 <div class="box task">
@@ -366,8 +373,8 @@ In Plan mode, type:
 
 <div class="box key">
 
-- <kbd>Esc</kbd> stops it - **dont be afraid to use it**
-- <kbd>Esc</kbd> <kbd>Esc</kbd> undoes file edits
+- <kbd>Esc</kbd> stops it - **don't be afraid to use it**
+- <kbd>Esc</kbd> <kbd>Esc</kbd> undoes its file edits (not moves or deletes)
 - It works only in the folder you opened
 - `/clear` resets the whiteboard
 - A usage limit pauses you. Nothing breaks
@@ -402,7 +409,7 @@ Same brain in all three. More tools, more it can do.
 
 <div class="box tip">
 
-Work on a copy. The original stays where it is.
+Work on a copy. The original stays where it is. Esc Esc cannot undo moving files into folders.
 
 </div>
 
@@ -410,7 +417,9 @@ Work on a copy. The original stays where it is.
 
 ## Terms from today
 
-Slash command · Session · Effort · File mention · Permission mode · Context window · Tool · Harness · Model · Claude model family · Chat, Work and Code · Terminal · Project
+Slash command · Session · Effort · File mention · Permission mode · Context window · Compaction · Tool · Agent loop · Harness · Model · Claude model family · Benchmark · Chat, Work and Code · Terminal · Project
+
+Guides: Reading the Claude Code screen · Working safely
 
 All of them are linked from the lecture page in the wiki.
 

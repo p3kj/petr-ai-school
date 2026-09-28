@@ -15,16 +15,18 @@ tags:
 - Myth of the week: "AI on my computer is a different, scarier AI." Same [[Model|model]] as the website. The difference is the [[Tool|tools]] it may use, and you watched every one of them.
 - Starting [[Claude Code]] in a folder, in four [[Client|clients]]: [[Claude Code in the terminal|terminal]] (Windows: right-click, Open in Terminal; Mac: drag the folder onto Terminal), [[Claude Code in VS Code|VS Code]], the [[Claude Code in the desktop app|desktop app]]. Same folder, different window.
 - Reading the screen: the model and folder at the top, the `>` line where you type, the [[Permission mode|mode]] label at the bottom.
-- Watching the tools. Every ⏺ line in the conversation is a tool the model asked for and the [[Harness|harness]] ran. Ctrl + O shows the full transcript.
+- Watching the tools. Every ⏺ line in the conversation is a tool the model asked for and the [[Harness|harness]] ran. Ctrl + O shows the full transcript. You do not need to read the tool calls themselves: [[Reading the Claude Code screen]] shows which lines matter.
+- The [[Agent loop|agent loop]]: gather context, take action, check the result, repeat. You can press Esc at any point, or type a correction while it works.
 - [[Chat Work and Code|Chat, Work and Code]] seen live: Chat is the model alone, Work is the model with tools inside one folder, Code is the model with every tool on your computer and you set the mode.
 - [[Slash command|Slash commands]]: type `/` and a menu opens. The ten to know first are on the [[Claude Code cheat sheet|cheat sheet]].
 - Six keys: Esc, Esc Esc, Shift + Tab, arrow up, Tab and `?`.
 - [[File mention|Pointing at files]] with `@`, by dragging a file in, or by pasting a screenshot.
 - Live demo: [[Set up a status line|a status line]] in one sentence with `/statusline`. It set itself up by writing two files, and you saw each step.
-- Models and [[Effort|effort]]: `/model` picks the brain from the [[Claude model family]], `/effort` sets how long it thinks. A risky task gets a stronger model, not a cheaper one.
-- The [[Context window|context window]] as a whiteboard: `/context`, `/clear`, `/resume` and `/compact`. A [[Session|session]] is one whiteboard, and the old ones are kept.
+- Models and [[Effort|effort]]: `/model` picks the brain from the [[Claude model family]], `/effort` sets how long it thinks. A risky task gets a stronger model, not a cheaper one. The [[Benchmark|benchmark]] charts showed what each step up costs and what it buys: DeepSWE from Anthropic's Claude Opus 5 System Card, and a newer independent one from Artificial Analysis data, with Opus 5.5.
+- The [[Context window|context window]] as a whiteboard: `/context`, `/clear`, `/resume` and `/compact`. A [[Session|session]] is one whiteboard, and the old ones are kept. [[Compaction]] is what happens when the whiteboard is full, and in normal work you should never get there.
 - [[Permission mode|Permission modes]] with Shift + Tab: Manual, Accept edits, Plan, Auto, and the label each one shows. The habit is Plan, then Auto.
 - Your turn: a plan for `index.md`, approved with "Yes, and use auto mode", then undone with Esc Esc.
+- Nothing to fear: Esc stops it, Esc Esc undoes its file edits, it works only in the folder you opened. [[Working safely]] collects the dos and don'ts.
 
 ## Key takeaway
 
@@ -38,8 +40,10 @@ Every ⏺ line is a tool. The model thinks, the harness acts, and you set how mu
 4. Bring one answer to the next session: which tool call surprised you?
 
 > [!tip] Work on a copy
-> Copy the folder first and let Claude work in the copy. The original stays where it is. Esc Esc can undo file edits inside a session, but a copy costs nothing and covers every case.
+> Copy the folder first and let Claude work in the copy. The original stays where it is. Esc Esc undoes files Claude edited, but not files it moved into subfolders, which is exactly what this homework does. The copy is your undo. See [[Working safely]].
 
 ## Terms from this lecture
 
-[[Slash command]] · [[Session]] · [[Effort]] · [[File mention]] · [[Permission mode]] · [[Context window]] · [[Tool]] · [[Harness]] · [[Model]] · [[Claude model family]] · [[Chat Work and Code|Chat, Work and Code]] · [[Terminal]] · [[Project]]
+[[Slash command]] · [[Session]] · [[Effort]] · [[File mention]] · [[Permission mode]] · [[Context window]] · [[Compaction]] · [[Tool]] · [[Agent loop]] · [[Harness]] · [[Agent]] · [[Model]] · [[Claude model family]] · [[Benchmark]] · [[Chat Work and Code|Chat, Work and Code]] · [[Client]] · [[Terminal]] · [[Project]] · [[Usage limits]]
+
+Guides for this lecture: [[Reading the Claude Code screen]] · [[Working safely]] · [[Claude Code cheat sheet]] · [[Set up a status line]]

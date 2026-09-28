@@ -3,7 +3,6 @@ title: Harness
 description: The program wrapped around a model that runs the work loop, asks you for permission and calls tools. It is what turns a chat into an agent.
 aliases:
   - harnesses
-  - agent loop
 tags:
   - concept
 ---
@@ -18,7 +17,7 @@ Concretely, the harness:
 - performs the action using a [[Tool|tool]] and gives the result back to the model,
 - loops until the model says it is done, then shows you the outcome.
 
-This loop, gather context then act then check, is what the word [[Agent|agentic]] means. [[Claude Code]] is a harness. The desktop and web chat apps are much thinner harnesses with very few tools.
+This loop, gather context then act then check, is what the word [[Agent|agentic]] means. The [[Agent loop|agent loop]] note shows it step by step, with Anthropic's diagram. [[Claude Code]] is a harness. The desktop and web chat apps are much thinner harnesses with very few tools.
 
 ## Example
 
@@ -30,6 +29,7 @@ The harness is where safety and control live. It decides which tools exist, what
 
 ## Related
 
+- [[Agent loop]] - the loop the harness runs, step by step
 - [[Tool]] - the actions a harness can perform
 - [[Permission mode]] - the dial that decides when it stops to ask
 - [[Session]] - the harness saves the conversation and snapshots files before it changes them

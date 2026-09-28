@@ -56,3 +56,5 @@ If you reach the limit often on Pro, that is useful information about how much y
 - [[Claude model family]] - what each tier costs you
 - [[Attractor effect]] - the other reason to start fresh conversations
 - [[Instructions file]] - context you pay for once per session, not per turn
+- [[Compaction]] - what happens when a session gets too long
+- [[Effort]] - the chart of what each effort step costs

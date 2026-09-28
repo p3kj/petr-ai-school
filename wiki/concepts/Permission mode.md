@@ -78,6 +78,7 @@ This is the dial that turns "AI on my computer" from an act of faith into a deci
 - [[Harness]] - the part that stops and asks
 - [[Tool]] - what it is asking permission to use
 - [[Project]] - the folder the permission applies inside
+- [[Working safely]] - the dos and don'ts around the modes: copies, plans, and "just talk about it"
 - [[Prompt]] - where you set the limits in your own words
 - [[Claude Code in the terminal]] - where to find the mode indicator
 - [[Claude Code cheat sheet]] - the four modes with the label each one shows

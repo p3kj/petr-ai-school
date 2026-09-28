@@ -19,7 +19,7 @@ Three things you do with sessions:
 
 - **Start a new one.** Type `/clear`. The whiteboard is wiped and the old session is saved. Do this every time you change to an unrelated task; see [[Attractor effect]] for why.
 - **Come back to an old one.** Type `/resume` and pick from the list. From the [[Terminal|terminal]], `claude -c` continues the most recent session in this folder and `claude -r` shows the picker before Claude starts.
-- **Undo file changes.** Before it edits a file, the harness takes a snapshot of it. Press Esc twice on an empty line and a rewind menu appears. Pick a point in the conversation and the files go back to how they were then. This works only for files it changed itself; it cannot undo an email it sent or a change in a system outside your folder.
+- **Undo file changes.** Before it edits a file, the harness takes a snapshot of it. Press Esc twice on an empty line and a rewind menu appears. Pick a point in the conversation and the files go back to how they were then. This works only for files it wrote or edited with its own editing tools. It cannot undo files moved or deleted by a command, an email it sent, or a change in a system outside your folder. [[Working safely]] has the full list.
 
 ## Example
 
@@ -37,4 +37,6 @@ One caution from [[Usage limits]]: coming back to a very long session is expensi
 - [[Attractor effect]] - why a new task deserves a new session
 - [[Slash command]] - `/clear`, `/resume` and the rest
 - [[Usage limits]] - why long old sessions cost more
+- [[Compaction]] - what happens when a session gets too long
+- [[Working safely]] - what rewind can and cannot undo, and the copy that covers the rest
 - [[Claude Code cheat sheet]] - the keys and starters in one place

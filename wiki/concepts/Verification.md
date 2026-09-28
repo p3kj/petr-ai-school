@@ -55,3 +55,5 @@ Best of all, ask for the check up front, as part of the request. That is the opt
 - [[Model]] - why true and false come out sounding the same
 - [[Tool]] - what lets an agent look instead of guessing again
 - [[Connector]] - text that arrives from outside needs the same suspicion
+- [[Agent loop]] - the "check the result" step, and how to make it count
+- [[Benchmark]] - the same suspicion, applied to charts about models

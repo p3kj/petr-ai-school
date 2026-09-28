@@ -11,7 +11,7 @@ tags:
 
 The difference between a consultant who writes you a report and a colleague who does the work. Both are smart. Only one opens the spreadsheet, fixes the numbers and sends the email.
 
-An agent is a [[Model|model]] plus a [[Harness|harness]] plus [[Tool|tools]]. Given a goal, it gathers what it needs, takes an action, looks at the result, and decides the next step. It repeats this until the goal is reached or it needs you. The word "agentic" simply means "works like this".
+An agent is a [[Model|model]] plus a [[Harness|harness]] plus [[Tool|tools]]. Given a goal, it gathers what it needs, takes an action, looks at the result, and decides the next step. It repeats this until the goal is reached or it needs you. That cycle is the [[Agent loop|agent loop]]. The word "agentic" simply means "works like this".
 
 A chat website is not an agent: you ask, it answers, the end. [[Claude Code]] is an agent: you ask, it works, you review.
 
@@ -25,6 +25,7 @@ Working with an agent is a different habit from chatting. You describe outcomes,
 
 ## Related
 
-- [[Harness]] - the loop that makes an agent agentic
+- [[Agent loop]] - gather context, act, check, repeat
+- [[Harness]] - the program that runs the loop
 - [[Tool]] - what an agent can actually do
 - [[Claude Code]] - the agent used in this course

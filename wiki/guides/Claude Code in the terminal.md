@@ -41,7 +41,7 @@ The welcome screen shows the version, the current [[Model|model]] and the folder
 - Type a sentence, press **Enter**. That is a [[Prompt|prompt]].
 - Claude answers in text, and when it wants to act (read a file, write a file, run a command) it either asks you first or shows you what it did, depending on the permission mode below.
 - **Esc** interrupts Claude mid-work. Nothing breaks; type what you want instead.
-- **Esc twice** on an empty line opens the rewind menu: pick an earlier point and the files Claude changed go back to how they were. See [[Session]].
+- **Esc twice** on an empty line opens the rewind menu: pick an earlier point and the files Claude edited go back to how they were. Moves and deletes done by commands are not covered; see [[Working safely]].
 - **Arrow up** brings back your previous prompt. You cannot click on things in a terminal; use the arrow keys.
 - Type `@` and the start of a filename to point Claude at a specific file: `summarise @notes.md`. That is a [[File mention|file mention]]; dragging a file into the window does the same.
 - Type `?` on an empty line and every keyboard shortcut is listed. The full set is on the [[Claude Code cheat sheet]].

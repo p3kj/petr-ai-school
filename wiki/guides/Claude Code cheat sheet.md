@@ -21,7 +21,7 @@ The six to learn first:
 | Key | Does |
 | --- | --- |
 | **Esc** | Stops Claude mid-work. Nothing breaks. Type what you want instead. |
-| **Esc Esc** | Clears what you have typed. On an empty line: opens the rewind menu to undo file changes. See [[Session]]. |
+| **Esc Esc** | Clears what you have typed. On an empty line: opens the rewind menu to undo file changes. Not moves or deletes done by commands: see [[Working safely]]. |
 | **Shift + Tab** | Switches the [[Permission mode\|permission mode]]. Windows fallback if the terminal swallows it: Alt + M. |
 | **↑ ↓** | Your previous prompts. |
 | **Tab** | Accepts the suggested completion, for a command or a [[File mention\|file name]]. |
@@ -34,7 +34,7 @@ Nice to know:
 | **Ctrl + C** | Clears the input. Pressed twice: exits. | | |
 | **Ctrl + L** | Redraws the screen if it looks broken. | | |
 | **Ctrl + R** | Searches your prompt history. | | |
-| **Ctrl + O** | Opens the transcript: every message and every [[Tool\|tool]] call. | | |
+| **Ctrl + O** | Opens the transcript: every message and every [[Tool\|tool]] call. See [[Reading the Claude Code screen]]. | | |
 | **New line** | A line break without sending. | Shift + Enter in Windows Terminal. `\` then Enter anywhere. | Shift + Enter in Terminal. `\` then Enter anywhere. |
 | **Paste an image** | Puts a screenshot into the context. | Alt + V (also in WSL) | Ctrl + V; Cmd + V in iTerm2 |
 | **@** | Mentions a file or folder. See [[File mention]]. | | |
@@ -52,7 +52,7 @@ The ten to know first:
 | `/clear` | Starts a new [[Session\|session]]. The old one is saved. |
 | `/resume` | Picks a saved session in this folder. |
 | `/model` | Picks the model tier. See [[Claude model family]]. |
-| `/effort` | Sets how long the model thinks: `low`, `medium`, `high` (default), `xhigh`, `max`. See [[Effort]]. |
+| `/effort` | Sets how long the model thinks: `low`, `medium`, `high`, `xhigh`, `max`. The default is medium on Opus 5.5, high on the others. See [[Effort]]. |
 | `/context` | Shows what is in the [[Context window\|context window]] and how full it is. |
 | `/usage` | Shows how much of your five-hour and weekly allowance is left. `/cost` does the same. See [[Usage limits]]. |
 | `/memory` | Lists your [[Instructions file\|instructions files]] and opens the one you pick. |
@@ -63,7 +63,7 @@ The next ones you will meet:
 
 | Type | Does |
 | --- | --- |
-| `/compact` | Summarises the conversation so far to make room in the context. Add a focus: `/compact keep the list of deadlines`. |
+| `/compact` | Summarises the conversation so far to make room in the context. Add a focus: `/compact keep the list of deadlines`. You should rarely need it: see [[Compaction]]. |
 | Esc Esc | Rewinds file changes to an earlier point. There is no typed command for it. |
 | `/permissions` | Shows and edits which tools may run without asking. |
 | `/status` | Shows the version, the model, the account and the folder. |
@@ -106,4 +106,5 @@ Open a terminal in your project folder first (Windows: right-click the folder, O
 ## Related
 
 - [[Claude Code in the terminal]] - the same things explained, not just listed
-- [[Slash command]], [[Session]], [[File mention]], [[Effort]], [[Permission mode]] - the terms behind the tables
+- [[Slash command]], [[Session]], [[File mention]], [[Effort]], [[Permission mode]], [[Compaction]] - the terms behind the tables
+- [[Reading the Claude Code screen]] and [[Working safely]] - what to watch, and how to stay safe

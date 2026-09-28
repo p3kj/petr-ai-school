@@ -41,7 +41,7 @@ The script gets a small packet of facts from Claude Code every few seconds and p
 
 | Fact | What it is |
 | --- | --- |
-| Model | The display name of the current model, for example `Opus 5`. |
+| Model | The display name of the current model, for example `Opus 5.5`. |
 | Folder | The folder Claude is working in. Most people show just the last part of the path. |
 | Context | How full the context window is, as a percentage. |
 | Cost | The estimated cost of this session at list prices. On a subscription this is only a guide; see [[Usage limits]]. |

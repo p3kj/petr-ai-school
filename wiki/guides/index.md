@@ -17,6 +17,8 @@ Guides are hands-on. Each one walks through a single task, shows the steps for W
 
 - [[Claude Code cheat sheet]] - keys, slash commands, permission modes and their labels, all on one printable page.
 - [[Set up a status line]] - the live demo from lecture 02: one sentence, and Claude writes the two files itself.
+- [[Reading the Claude Code screen]] - which lines to read, which to ignore, and when to press Esc.
+- [[Working safely]] - the dos and don'ts: work on a copy, plan first, and what Esc Esc cannot undo.
 
 ## Coming with later sessions
 

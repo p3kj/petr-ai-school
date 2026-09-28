@@ -76,3 +76,5 @@ Stuck at any step? Note where, and bring the laptop. The [[Install Claude Code o
 - [[Claude Code in the terminal]] - the essential commands
 - [[Claude Code cheat sheet]] - every key and command on one page
 - [[Attractor effect]] - why `/clear` between tasks is a good habit
+- [[Reading the Claude Code screen]] - what the lines mean while it works
+- [[Working safely]] - the habits to build before your first real task

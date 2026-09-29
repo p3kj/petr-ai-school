@@ -13,7 +13,7 @@ Take it apart with the [[Mental models|four-part picture]]:
 
 - **Model:** one of Anthropic's Claude [[Model|models]]. You can switch between them.
 - **Harness:** the Claude Code program itself. It runs the loop, shows you what the model wants to do and asks before it changes anything, according to the [[Permission mode|permission mode]] you set.
-- **Tools:** reading and writing files, running [[Command-line tool|programs]], searching the web, and [[Connector|connectors]] to other systems you add later.
+- **Tools:** reading and writing files, running [[Command-line program|programs]], searching the web, and [[Connector|connectors]] to other systems you add yourself.
 
 You can use it from several windows, all onto the same agent: a terminal, the Claude desktop app, an extension in VS Code, a plugin in JetBrains, or the web. Pick the one you find comfortable. The course shows the terminal and VS Code side by side.
 
@@ -23,7 +23,7 @@ Open a [[Folder|folder]] with last month's meeting notes, start Claude Code ther
 
 ## Why it matters for you
 
-Anthropic sells the same model in three products, see [[Chat Work and Code|Chat, Work and Code]]. Chat is an advisor on the phone. Work is a contractor you hand a folder and a task. Code is a colleague at the next desk with access to what you have. Once you are comfortable at the Code level, every other AI product is a simpler version of the same thing.
+Anthropic sells the same model in three products, see [[Chat Work and Code|Chat, Work and Code]]. Chat is an advisor on the phone. Work is a contractor you hand a folder and a task. Code is a colleague at the next desk with access to what you have. The difference is the tools: only Code can run the programs on your own computer, with your logins. Chat and Work run programs only in a [[Sandbox|sandbox]]. Once you are comfortable at the Code level, every other AI product is a simpler version of the same thing.
 
 ## Related
 

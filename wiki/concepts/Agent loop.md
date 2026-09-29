@@ -20,7 +20,7 @@ An [[Agent|agent]] works the same way. You give it a task, and the [[Harness|har
 2. **Take action.** It writes a file, moves something, runs a program.
 3. **Check the result.** It opens what it wrote, compares totals, runs the test again.
 
-Then it decides the next step based on what it just learned, and goes round again. A simple question may need only step 1. A real task goes round dozens of times. Each round uses a [[Tool|tool]], and each tool call is one line with a ⏺ in [[Claude Code]]. See [[Reading the Claude Code screen]].
+Then it decides the next step based on what it just learned, and starts the loop again. A simple question may need only step 1. A real task goes through the loop dozens of times. Each round uses a [[Tool|tool]], and each tool call is one line with a ⏺ in [[Claude Code]]. See [[Reading the Claude Code screen]].
 
 **You are part of the loop too.** Press Esc and it stops at once. Or type a correction and press Enter while it works: the message waits above the input box, and the agent reads it before its next step. You do not have to wait for the end to say "no, not like that".
 

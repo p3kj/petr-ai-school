@@ -29,7 +29,7 @@ Those two forms are the same place written two ways. `%USERPROFILE%` is how Wind
 What goes where:
 
 - **Project rules** are about the work: the house style, how files are named, what this client wants, the three things that always go wrong here. Because the file sits in the folder, a colleague who opens that folder gets the same rules without being told.
-- **Your own rules** are about you: what language you want answers in, how much explanation you like, which tools you always use. They follow you into every project on that machine.
+- **Your own rules** are about you: what language you want answers in, how much explanation you like, which programs you always use. They follow you into every project on that machine.
 - **Your profile** is the same idea one level up, set in the browser instead of in a file. Useful for things that are true of you everywhere.
 
 There is a fourth file worth knowing if you share a folder through Git: `CLAUDE.local.md`, next to `CLAUDE.md`, for your own notes on a shared project. Add it to `.gitignore` and your colleagues never see it.
@@ -81,7 +81,7 @@ Files last; conversations do not. Everything you explain in a chat is gone next 
 Moving those explanations into a file in the folder is the fix. It is also the clearest example of the file-first idea this course keeps coming back to.
 
 > [!note] AGENTS.md
-> Some teams use a file called `AGENTS.md` instead. It is the same idea, agreed between several AI vendors so other tools read it too. Claude Code reads it as well. If a folder already has one, you do not need a second file.
+> Some teams use a file called `AGENTS.md` instead. It is the same idea, agreed between several AI vendors so other AI products read it too. Claude Code reads it as well. If a folder already has one, you do not need a second file.
 
 ## Related
 

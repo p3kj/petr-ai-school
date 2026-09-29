@@ -77,6 +77,7 @@ This is the dial that turns "AI on my computer" from an act of faith into a deci
 
 - [[Harness]] - the part that stops and asks
 - [[Tool]] - what it is asking permission to use
+- [[Sandbox]] - the closed box Chat and Work use instead; Code has you and the permission mode
 - [[Project]] - the folder the permission applies inside
 - [[Working safely]] - the dos and don'ts around the modes: copies, plans, and "just talk about it"
 - [[Prompt]] - where you set the limits in your own words

@@ -17,7 +17,7 @@ Concretely, the harness:
 - performs the action using a [[Tool|tool]] and gives the result back to the model,
 - loops until the model says it is done, then shows you the outcome.
 
-This loop, gather context then act then check, is what the word [[Agent|agentic]] means. The [[Agent loop|agent loop]] note shows it step by step, with Anthropic's diagram. [[Claude Code]] is a harness. The desktop and web chat apps are much thinner harnesses with very few tools.
+This loop, gather context then act then check, is what the word [[Agent|agentic]] means. The [[Agent loop|agent loop]] note shows it step by step, with Anthropic's diagram. [[Claude Code]] is a harness. The chat on claude.ai is a much thinner harness with fewer tools, and the programs it runs stay in a [[Sandbox|sandbox]] in the cloud. See [[Chat Work and Code|Chat, Work and Code]].
 
 ## Example
 

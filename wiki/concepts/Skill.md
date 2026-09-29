@@ -70,4 +70,5 @@ Do not start writing skills on day one. Work normally for two weeks. Notice whic
 - [[Instructions file]] - standing rules, read at the start of every session
 - [[Prompt]] - what a skill is made of
 - [[Connector]] - new tools, the other way to extend an agent
+- [[Script]] - fixed steps in a file, for the part that needs no judgement
 - [[Project]] - where a shared skill lives

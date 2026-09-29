@@ -15,9 +15,10 @@ Hover over a term for the short version, click for the full page. Terms are adde
 | [[Claude Code]] | The agent we use in this course. A model, a harness and many tools, in a terminal or an editor. |
 | [[Claude model family]] | Fable, Opus, Sonnet, Haiku: what each tier is for, what it costs, and the OpenAI and Google equivalents. |
 | [[Client]] | The window you talk to the agent through: terminal, VS Code, desktop app, JetBrains, web. Same agent underneath. |
-| [[Command-line tool]] | A program you run by typing one line instead of clicking. The agent reads its `--help` and runs it for you. |
+| [[Command-line program]] | A program you use by typing one line instead of clicking (CLI). Claude reads its `--help` and runs it with its "run a program" tool. |
 | [[Compaction]] | When the context is nearly full, the conversation is replaced by a summary. In this course: a warning light. |
-| [[Connector]] | A plug that gives the agent a new tool: calendar, mail, company systems. The standard is called MCP. |
+| [[Computer use]] | Claude works a program through its window: screenshot, click, look again. Any program, very slow, the last way to try. |
+| [[Connector]] | A plug that gives the agent new tools for one service: calendar, mail, CRM. Also called MCP or MCP server. |
 | [[Context window]] | Everything the model can see right now. Fixed size; when it is full, old details are cleared or summarised. |
 | [[Effort]] | How long the model thinks before it answers. A dial from low to max, set with `/effort`. |
 | [[File mention]] | Pointing the agent at a file with `@`, by dragging it in, or by pasting a screenshot. |
@@ -29,12 +30,15 @@ Hover over a term for the short version, click for the full page. Terms are adde
 | [[Permission mode]] | How much the agent may do without asking. Plan the work first, then let Auto do it. |
 | [[Project]] | The folder you opened the agent in. What it can see, what it may change, where its instructions live. |
 | [[Prompt]] | What you tell the AI. Role, Context, Command, Format, and optionally how to check. |
+| [[Prompt injection]] | Orders for the AI hidden in an email, a web page or a file. Claude may follow them, so read its plan first. |
+| [[Sandbox]] | A closed box where Chat and Work run programs. Your programs and logins stay out of reach; a folder you connect is real. |
+| [[Script]] | A small file with exact steps that Claude writes and runs. You keep it; it does the same thing every time. |
 | [[Session]] | One conversation in one folder. `/clear` starts a new one, `/resume` brings an old one back, Esc Esc undoes file changes. |
 | [[Skill]] | A saved procedure for a recurring task. Written once in a file, followed every time. |
 | [[Slash command]] | A command to the program itself, typed with a slash: `/clear`, `/model`, `/help`. Type `/` for the menu. |
 | [[Terminal]] | A window where you type a command and the computer answers in text. Where the command-line client lives. |
 | [[Token]] | The unit AI reads and writes text in, roughly three quarters of a word. Also what you pay for. |
-| [[Tool]] | An action the agent can take: read a file, run a program, search the web, open your calendar. |
+| [[Tool]] | A button the harness gives the model: read a file, run a program, search the web, open your calendar. No tool, no action. |
 | [[Usage limits]] | Paid plans include an amount of work per five hours and per week. Why the agent sometimes stops. |
 | [[Verification]] | Checking AI output: which claims are worth checking and how to make the agent check itself. |
 

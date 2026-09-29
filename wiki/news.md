@@ -26,7 +26,19 @@ This wiki grows every week. So that you do not have to go looking, everything ne
 
 **Changed:** Anthropic released Opus 5.5 on 22 September. It is now the model Claude Code starts with, at medium effort, and it is cheaper than Opus 5. [[Claude model family]] and [[Effort]] have the new facts and a chart of effort against cost against score. [[Chat Work and Code|Chat, Work and Code]] now says where Cowork runs: in Anthropic's cloud by default. [[Context window]] had one thing slightly wrong: when it is full, Claude Code does not simply drop old content. It clears old tool results and then summarises.
 
-Before the homework, read [[Working safely]]. If you wonder which model to use, look at the chart on [[Effort]].
+**Coming next: connecting your systems, then making tasks repeat.**
+
+- [[Roadmap]] - weeks 03 and 04 are now fixed. Week 03 is about reaching the systems you use at work: connectors, command-line programs and APIs, and when to use which. Week 04 turns a task you do every week into one that repeats, and shows why a skill alone is not automation. The other topics are all still coming, in an order we will pick as we go.
+
+**Ready for week 03: the ways into your systems.**
+
+- [[Connect Google Workspace]] - Gmail, Drive and Calendar two ways: the connector you switch on, and the `gws` command-line tool. Six Gmail jobs show where the connector stops: saving attachments into a folder, sending a file, changing 2,000 emails at once, setting your out-of-office.
+- [[Command-line tool]] - a program you run by typing one line instead of clicking. Claude reads its built-in manual and types the command for you.
+- [[API]] - a web address for programs, and why an API key is a password.
+
+**Also:** [[Connector]] had two things out of date. Claude Code does not describe every connected tool to the model in full at the start. It sees only the names and looks up the rest when needed. What still fills your context is what a connector sends back. And not every web connector is Anthropic's own: the Gmail, Calendar and Drive ones are made by Google.
+
+Before the homework, read [[Working safely]]. If you wonder which model to use, look at the chart on [[Effort]]. For week 03, start with [[Connect Google Workspace]].
 
 ## 2026-09-21
 

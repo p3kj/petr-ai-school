@@ -53,12 +53,12 @@ Esc twice on an empty line opens the rewind menu (see [[Session]]). Before Claud
 | --- | --- |
 | Files Claude wrote or edited itself, shown on screen as `Write(...)` or `Update(...)` | Files moved, renamed or deleted by a command, shown as `Bash(...)`: for example sorting files into folders |
 | | Changes you made yourself, or made in another session |
-| | Anything outside your computer: an email it sent, a calendar entry, a change on a website through a [[Connector\|connector]] |
+| | Anything outside your computer: an email it sent, a calendar entry, a change on a website through a [[Connector\|connector]] or a [[Command-line tool\|command-line tool]] like `gws` |
 
 This matters for the homework from [[02-meet-claude-code|lecture 02]]. Sorting a folder into subfolders is done with move commands, so rewind cannot undo it. The copy is your undo.
 
 > [!note] Coming soon: Git
-> Copying folders works, and it is the right habit for now. Later in the course we cover Git: save points for a whole folder, so you can go back to any earlier version of any file, see exactly what changed, and share the work with colleagues without emailing zip files. It is the real answer to "how do I back up my work", and it is how Petr works. See [[Roadmap|week 09]].
+> Copying folders works, and it is the right habit for now. Later in the course we cover Git: save points for a whole folder, so you can go back to any earlier version of any file, see exactly what changed, and share the work with colleagues without emailing zip files. It is the real answer to "how do I back up my work", and it is how Petr works. See the [[Roadmap]].
 
 ## Why this is enough
 

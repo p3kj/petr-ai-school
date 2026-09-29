@@ -9,11 +9,13 @@ Hover over a term for the short version, click for the full page. Terms are adde
 | --- | --- |
 | [[Agent]] | An AI that can act, not just talk: it uses tools in a loop until a task is done. |
 | [[Agent loop]] | Gather context, take action, check the result, repeat. You can step in at any point. |
+| [[API]] | A web address for programs: data instead of a page. Most need a key, and a key is a password. |
 | [[Attractor effect]] | Everything in the context pulls the answer toward it for the rest of the conversation, even what you forbid. |
 | [[Benchmark]] | A standard test many models take, so scores can be compared. Where to see who leads, and how not to be fooled. |
 | [[Claude Code]] | The agent we use in this course. A model, a harness and many tools, in a terminal or an editor. |
 | [[Claude model family]] | Fable, Opus, Sonnet, Haiku: what each tier is for, what it costs, and the OpenAI and Google equivalents. |
 | [[Client]] | The window you talk to the agent through: terminal, VS Code, desktop app, JetBrains, web. Same agent underneath. |
+| [[Command-line tool]] | A program you run by typing one line instead of clicking. The agent reads its `--help` and runs it for you. |
 | [[Compaction]] | When the context is nearly full, the conversation is replaced by a summary. In this course: a warning light. |
 | [[Connector]] | A plug that gives the agent a new tool: calendar, mail, company systems. The standard is called MCP. |
 | [[Context window]] | Everything the model can see right now. Fixed size; when it is full, old details are cleared or summarised. |

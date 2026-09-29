@@ -2,7 +2,6 @@
 title: Claude Code in the terminal
 description: "What the command-line client looks like once it runs: the welcome screen, how to type, stop, switch permission modes, continue yesterday's conversation, and the commands you need first."
 aliases:
-  - CLI
   - Claude Code CLI
   - command line client
 tags:

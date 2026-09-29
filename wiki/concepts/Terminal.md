@@ -4,7 +4,6 @@ description: "A window where you type a command and the computer answers in text
 aliases:
   - terminals
   - command line
-  - CLI
   - shell
   - PowerShell
   - console
@@ -42,3 +41,4 @@ The terminal is the client where nothing is hidden: every file read, every comma
 - [[Claude Code in the terminal]] - the practical guide
 - [[Install Claude Code on Windows]] - which terminal to open on Windows 11 and why
 - [[Harness]] - what runs the commands you approve
+- [[Command-line tool]] - programs you run by typing, from here

@@ -19,7 +19,7 @@ A tool is one specific action the [[Harness|harness]] can perform on the model's
 
 ## Why it matters for you
 
-When something "does not work", the first question is no longer "is the AI smart enough?" but "**does it have a tool for that?**". Often the fix is to connect one. Later in the course you will add tools yourself through [[Connector|connectors (MCP)]]. Until then, notice which tool the agent asks to use each time it asks for permission, and which [[Permission mode|permission mode]] you are in. In [[Claude Code]] every tool call shows as a ⏺ line in the conversation, so you can watch the hands work. [[Reading the Claude Code screen]] shows which of those lines to read.
+When something "does not work", the first question is no longer "is the AI smart enough?" but "**does it have a tool for that?**". Often the fix is to connect one. In week 03 you will add tools yourself, through [[Connector|connectors (MCP)]] and [[Command-line tool|command-line tools]]. Until then, notice which tool the agent asks to use each time it asks for permission, and which [[Permission mode|permission mode]] you are in. In [[Claude Code]] every tool call shows as a ⏺ line in the conversation, so you can watch the hands work. [[Reading the Claude Code screen]] shows which of those lines to read.
 
 ## Related
 
@@ -28,4 +28,5 @@ When something "does not work", the first question is no longer "is the AI smart
 - [[Agent loop]] - each round of the loop uses a tool
 - [[Reading the Claude Code screen]] - what a tool call looks like on screen
 - [[Connector]] - how to give it a tool it does not have
+- [[Command-line tool]] - a program the agent runs with the tool it already has
 - [[Mental models]] - the belief "web AI can do everything" and why tools are the answer

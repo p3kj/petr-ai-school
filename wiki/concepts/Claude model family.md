@@ -61,7 +61,7 @@ Not worth it for one-line questions or reformatting a table. Sonnet or Haiku do 
 
 - **claude.ai and the desktop app**: every paid plan (Pro, Max, Team, Enterprise) can use Fable, Opus and Sonnet; pick in the model menu next to the prompt. Max does not unlock extra models, it buys more usage.
 - **Claude Code**: starts with Opus 5.5 at medium effort on Pro, Max, Team and Enterprise. Type the [[Slash command|slash command]] `/model` to see the picker, or `/model opus`, `/model sonnet`, `/model haiku`, `/model fable` to switch. `/model opusplan` uses Opus to plan and Sonnet to execute, a sensible money-saver.
-- **Subscriptions do not bill per token.** The prices above matter if you pay for the API directly. On a subscription they still matter indirectly: a bigger model uses up your usage allowance faster.
+- **Subscriptions do not bill per token.** The prices above matter if you pay for the [[API]] directly. On a subscription they still matter indirectly: a bigger model uses up your usage allowance faster.
 
 ## The second dial: effort
 

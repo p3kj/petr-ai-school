@@ -20,10 +20,14 @@ Guides are hands-on. Each one walks through a single task, shows the steps for W
 - [[Reading the Claude Code screen]] - which lines to read, which to ignore, and when to press Esc.
 - [[Working safely]] - the dos and don'ts: work on a copy, plan first, and what Esc Esc cannot undo.
 
+## Connecting your systems
+
+- [[Connect Google Workspace]] - Gmail, Drive and Calendar two ways: the connector you switch on, and the `gws` command-line tool. What each can do, shown on Gmail.
+
 ## Coming with later sessions
 
 - Markdown in ten minutes
 - Git for humans: save points for your files
-- Connect a tool: calendar, mail, documents
+- More ways in: an API key kept safe, and a program driven through its window
 
 The [[Roadmap]] shows when each topic comes up.

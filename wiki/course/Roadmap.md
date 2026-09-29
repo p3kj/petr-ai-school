@@ -1,26 +1,33 @@
 ---
 title: Roadmap
-description: The tentative week-by-week plan of the course. A living document that changes as we go.
+description: The tentative plan of the course. The next weeks are fixed, the topics after that come in an order we pick as we go.
 tags:
   - course
 ---
 
-This is a living plan. Sessions get reordered, merged or added depending on how the group is doing. The order below follows one rule: nothing is introduced before the ideas it depends on.
+This is a living plan. The next few weeks are fixed. The topics after them are all coming, but in an order we will pick as we go, depending on what the group needs. One rule stays: nothing is introduced before the ideas it depends on.
 
 | Week | Topic | What you will be able to do |
 | --- | --- | --- |
 | 01 | [[01-introduction-to-ai\|Introduction to AI]] | Know what this course is, where AI stands today, and why we chose [[Claude Code]]. |
 | 02 | [[02-meet-claude-code\|Meet Claude Code]] | Find your way around [[Claude Code]]: open it in a folder, use [[Slash command\|slash commands]] and keys, watch the [[Harness\|harness]] call [[Tool\|tools]], switch [[Permission mode\|permission modes]], set up a [[Set up a status line\|status line]]. Watch the [[Agent loop\|agent loop]] run, know [[Reading the Claude Code screen\|which lines to read]] and how to [[Working safely\|work safely]]. See the [[Claude Code cheat sheet]]. |
-| 03 | Files first | Work confidently with [[Folder\|folders]] and files; open the same folder in Explorer, VS Code and Claude Code. |
-| 04 | Your first real task | Pick a task from your own work, make it a [[Project\|project]] folder, write a full [[Prompt\|prompt]] (Role, Context, Command, Format), plan it in [[Permission mode\|Plan mode]] and let Auto do the work. Builds on [[Your first session]]. |
-| 05 | Context, models and tokens | Understand the [[Context window\|context window]], why you should never need [[Compaction\|compaction]], and the [[Attractor effect\|attractor effect]]. Pick a [[Model\|model]] tier from the [[Claude model family\|Claude model family]] and an [[Effort\|effort]] level, read a [[Benchmark\|benchmark]] chart, read what a [[Token\|token]] costs and why you hit [[Usage limits\|usage limits]]. |
-| 06 | Markdown in an hour | Write notes and documents in Markdown, the plain text format AI reads and writes best. |
-| 07 | Tools and connectors | See which [[Tool\|tools]] the agent has, add [[Connector\|connectors (MCP)]] to calendar, mail, documents, [[Image generation\|image generators]]. |
-| 08 | Teaching the agent | Write [[Instructions file\|instructions that stick]] (CLAUDE.md), reusable [[Skill\|skills]], and [[Verification\|check its work]]. |
-| 09 | Git for humans | Save points and history for your files; share a project with a colleague without emailing zips. |
-| 10 | Workflows and loops | Chain steps, let the agent run a task repeatedly, run it without watching. |
-| 11 | Working in a team | Shared projects, review each other's results, keep company knowledge in files. |
-| 12 | Your own agent setup | Bring a real task from your job and finish it with the agent, start to end. |
+| 03 | Connecting your systems | Let the agent reach the systems you use at work, and pick the right way in: a [[Connector\|connector (MCP)]], a [[Command-line tool\|command-line program]], the service's [[API]], or a plain file export. Know what each can and cannot do, and how to keep an [[API\|API key]] safe. See the two ways into Gmail in [[Connect Google Workspace]]. For homework, do one real task from your job in a [[Project\|project]] folder: [[Permission mode\|plan first, then Auto]]. |
+| 04 | From skill to repeatable task | Turn a task you do every week into one that repeats. Write a good [[Prompt\|prompt]] once (Role, Context, Command, Format), save it as a [[Skill\|skill]], move the fixed steps into a script, and put it on a schedule. Know why a skill alone is not automation, and which step fits which job. |
+
+## Coming later
+
+In no fixed order.
+
+| Topic | What you will be able to do |
+| --- | --- |
+| Context, models and tokens | Understand the [[Context window\|context window]], why you should never need [[Compaction\|compaction]], and the [[Attractor effect\|attractor effect]]. Pick a [[Model\|model]] tier from the [[Claude model family\|Claude model family]] and an [[Effort\|effort]] level, read a [[Benchmark\|benchmark]] chart, read what a [[Token\|token]] costs and why you hit [[Usage limits\|usage limits]]. |
+| Files and Markdown | Work confidently with [[Folder\|folders]] and files; open the same folder in Explorer, VS Code and Claude Code. Write notes and documents in Markdown, the plain text format AI reads and writes best. |
+| Instructions and checking work | Write [[Instructions file\|instructions that stick]] (CLAUDE.md) and [[Verification\|check the agent's work]]. |
+| More tools | [[Image generation\|Image generators]], the browser, and other tools the agent can use. |
+| Git for humans | Save points and history for your files; share a project with a colleague without emailing zips. |
+| Running without you | Let a task run in a loop or on a schedule, even when your computer is off. |
+| Working in a team | Shared projects, review each other's results, keep company knowledge in files. |
+| Your own agent setup | The last session. Bring a real task from your job and finish it with the agent, start to end. |
 
 Homework follows each session and builds on the previous one. If you miss a week, read the lecture page and do the homework before the next session; it takes about half an hour.
 

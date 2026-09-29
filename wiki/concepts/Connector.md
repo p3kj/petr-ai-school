@@ -28,19 +28,25 @@ This is the part that confuses people, so learn it early. Connectors come from t
 
 Both lists arrive together, and `/mcp` in Claude Code shows you everything from both. If you have set up the same service in both places, the one on your computer wins, and `/mcp` tells you the web one is hidden.
 
-The connectors on the web are the easy way in: you switch one on, sign in to the service in your browser, and it is there. Worth knowing, though, that these are Anthropic's own versions. They are sometimes simpler than the connector the service publishes itself, or offer fewer actions. If a web connector cannot do the thing you need, look for the service's own one and set it up on your machine.
+The connectors on the web are the easy way in: you switch one on, sign in to the service in your browser, and it is there. Worth knowing who made each one. Some are built by the service itself: the Gmail, Google Calendar and Google Drive connectors are made by Google. Others are Anthropic's own versions, and those are sometimes simpler than what the service offers, with fewer actions. The connector directory at [claude.com/connectors](https://claude.com/connectors) says who made each one. If a web connector cannot do the thing you need, look for another way in (see below).
 
 ## Switch off what you are not using
 
-Every connected tool is described to the model at the start of the session, so twenty connectors you never use cost you [[Context window|context]] on every single request, and give the model more ways to misunderstand you.
+Claude Code does not describe every connected tool to the model in full. At the start of a session the model sees only the tool names. It looks up the details of a tool when it needs that tool. So a connector you do not use costs you very little [[Context window|context]].
 
-Keep on all the time: the two or three you genuinely use every day. Everything else is better switched on for the folder that needs it. Type `/mcp` and toggle one off, and it stays off for that project only.
+What does fill your context is what a connector sends back. Ask for 300 emails and all 300 land in the conversation. Claude Code warns you when one answer is bigger than 10,000 [[Token|tokens]].
+
+Switch off the ones you do not use anyway, for two reasons. Each one is real access to your data (see below). And every extra tool is one more way for the model to pick the wrong one.
+
+Keep on all the time: the two or three you really use every day. Everything else is better switched on for the folder that needs it. Type `/mcp` and toggle one off, and it stays off for that project only.
 
 ## The other way: command-line tools
 
-A connector is not the only way to reach a system. Many services also ship a small program you run in the [[Terminal|terminal]]: `gh` for GitHub, `glab` for GitLab, `gws` for Google Workspace, and so on. The agent already has a tool for running programs, so it can use these without any connector at all.
+A connector is not the only way to reach a system. Many services also ship a [[Command-line tool|command-line tool]], a small program you run in the [[Terminal|terminal]]: `gh` for GitHub, `glab` for GitLab, `gws` for Google Workspace, and so on. The agent already has a tool for running programs, so it can use these without any connector at all. Under both there is usually the service's [[API]].
 
-This is a later topic in the course and it needs a bit more setup. It is worth the wait, because these programs usually do far more than the matching connector does, and the agent reads their built-in help to work out how to use them.
+This is week 03 on the [[Roadmap]], and it needs a bit more setup. It is worth it, because these programs usually do far more than the matching connector does, and the agent reads their built-in help to work out how to use them.
+
+[[Connect Google Workspace]] shows the two side by side on Gmail. The connector is the quickest way to find and answer one email. `gws` can also save attachments into a folder, change 2,000 emails with two commands and set your out-of-office.
 
 ## Example
 
@@ -60,6 +66,8 @@ Two things to be careful about:
 ## Related
 
 - [[Tool]] - what a connector hands over
+- [[Command-line tool]] and [[API]] - the other doors into the same systems
+- [[Connect Google Workspace]] - the Gmail connector and `gws` compared
 - [[Permission mode]] - how much a connected tool may do on its own
 - [[Image generation]] - a missing tool, solved by a connector
 - [[Skill]] - teaching the agent a way of working, the other way to extend it

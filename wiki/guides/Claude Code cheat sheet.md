@@ -66,11 +66,12 @@ The next ones you will meet:
 | `/compact` | Summarises the conversation so far to make room in the context. Add a focus: `/compact keep the list of deadlines`. You should rarely need it: see [[Compaction]]. |
 | Esc Esc | Rewinds file changes to an earlier point. There is no typed command for it. |
 | `/permissions` | Shows and edits which tools may run without asking. |
+| `/mcp` | Lists your [[Connector\|connectors]] and the tools each one adds. Switch one off for this project, or sign in to one again. |
 | `/status` | Shows the version, the model, the account and the folder. |
 | `/doctor` | Checks the installation and fixes common problems. |
 | `/export` | Saves the conversation as a text file. |
 | `/login` | Signs in again or switches accounts. |
-| `/init` | Creates a starter [[Instructions file\|CLAUDE.md]] for the folder. Week 08. |
+| `/init` | Creates a starter [[Instructions file\|CLAUDE.md]] for the folder. |
 
 ## Permission modes
 

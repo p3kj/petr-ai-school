@@ -21,7 +21,7 @@ A handful of labs build the **frontier** models, the most capable ones at any mo
 
 | Lab | Model family | Note |
 | --- | --- | --- |
-| Anthropic | Claude (Fable 5.1, Opus 5.5, Sonnet 5, Haiku 4.5) | What we use in this course |
+| Anthropic | Claude (Fable 5.1, Opus 5.5, Sonnet 5.5, Haiku 4.5) | What we use in this course |
 | OpenAI | GPT (GPT-6 Astra, GPT-5.6) | Powers ChatGPT |
 | Google | Gemini | Built into Google's products |
 | Meta | Muse | |

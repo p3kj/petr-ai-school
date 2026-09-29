@@ -25,11 +25,11 @@ Thinking costs [[Token|tokens]], so higher effort uses more of your [[Usage limi
 An independent [[Benchmark|benchmark]] shows it well. Each line is one model, each point one effort level, from low on the left to max on the right:
 
 ![[effort-score-cost-claude-2026-09.png]]
-*Score against cost for each Claude model and effort level. Chart: petr-ai-school, from Artificial Analysis data, 23 September 2026.*
+*Score against cost per task for each Claude model and effort level. Chart: petr-ai-school, from Artificial Analysis data, 29 September 2026.*
 
-- **Each step up costs more, up to about twice as much as the step before.** On Opus 5.5, max costs more than five times what medium costs.
-- **The score rises less and less.** From low to medium is a big jump. From xhigh to max is a small one, and on some tests max is even a little worse than xhigh.
-- **A better model at lower effort often beats a weaker model at max.** Opus 5.5 at low effort scores higher than Sonnet 5 at max, for about an eighth of the cost.
+- **Each step up costs more, often about twice as much as the step before.** On Opus 5.5, one task at max costs more than four times what it costs at medium.
+- **The score rises less and less.** On Opus 5.5, from low to medium is a big jump and from xhigh to max a small one. Fable 5.1 hardly gains anything from xhigh to max, and on some tests max is even a little worse than xhigh.
+- **A stronger model at lower effort often matches a lighter model at max, for less.** Opus 5.5 at xhigh scores the same as Sonnet 5.5 at max (56), for less than half the cost per task.
 
 So: stay at the default, go one or two steps up when a task is hard, and use max only when being right matters more than time and allowance.
 

@@ -12,32 +12,11 @@ tags:
 This wiki grows every week. So that you do not have to go looking, everything new is listed here, newest first. Read the top entry, follow the links in it, and you are up to date.
 
 > [!tip] Linking to one week
-> Every entry has its own address, made from its date. The one below is at `/news#2026-09-28`. That is the link in the weekly email, so you can go straight to the week you missed.
+> Every entry has its own address, made from its date. The one below is at `/news#2026-09-29`. That is the link in the weekly email, so you can go straight to the week you missed.
 
-## 2026-09-28
+## 2026-09-29
 
-**Reading the screen, working safely, and a new Opus.**
-
-- [[Working safely]] - the dos and don'ts: work on a copy, plan first, or say "do not change anything yet, just talk about it". Also what Esc Esc can and cannot undo. Read it before the homework: Esc Esc cannot undo moving files into folders.
-- [[Reading the Claude Code screen]] - the screen looks like programmer text, but you only need the plain sentences. Which lines to read, and when to press Esc.
-- [[Agent loop]] - gather context, take action, check the result, repeat. The diagram from the lecture, and where you fit in.
-- [[Compaction]] - what happens when a session gets too long, and why in normal work you should never get there.
-- [[Benchmark]] - how AI models are tested, the sites that show who leads right now, and how not to be fooled by a chart.
-
-**Changed:** Anthropic released Opus 5.5 on 22 September. It is now the model Claude Code starts with, at medium effort, and it is cheaper than Opus 5. [[Claude model family]] and [[Effort]] have the new facts and a chart of effort against cost against score. [[Chat Work and Code|Chat, Work and Code]] now says where Cowork runs: in Anthropic's cloud by default. [[Context window]] had one thing slightly wrong: when it is full, Claude Code does not simply drop old content. It clears old tool results and then summarises.
-
-**Coming next: connecting your systems, then making tasks repeat.**
-
-- [[Roadmap]] - weeks 03 and 04 are now fixed. Week 03 is about reaching the systems you use at work: connectors, command-line programs and APIs, and when to use which. Week 04 turns a task you do every week into one that repeats, and shows why a skill alone is not automation. The other topics are all still coming, in an order we will pick as we go.
-- Week 05 is now on the [[Roadmap]] too: running several agents at once. Instead of waiting for one agent, you hand out the work, let helpers do the side jobs, and check what comes back.
-
-**Ready for week 03: the ways into your systems.**
-
-- [[Connect Google Workspace]] - Gmail, Drive and Calendar two ways: the connector you switch on, and the `gws` command-line tool. Six Gmail jobs show where the connector stops: saving attachments into a folder, sending a file, changing 2,000 emails at once, setting your out-of-office.
-- [[Command-line program|Command-line tool]] - a program you run by typing one line instead of clicking. Claude reads its built-in manual and types the command for you.
-- [[API]] - a web address for programs, and why an API key is a password.
-
-**Lecture 03: Gearing up.**
+**Lecture 03: Gearing up, and a new Sonnet.**
 
 - [[03-gearing-up|Lecture 03: Gearing up]] - the slides, what we covered, your turn and the homework. What a tool is, and every way to give Claude more.
 - [[Tool]] - rewritten. A tool is a button the harness gives the model. How one tool call works, step by step, and the names you see on the ⏺ lines.
@@ -52,9 +31,30 @@ This wiki grows every week. So that you do not have to go looking, everything ne
 
 **Also, for lecture 03:** the Command-line tool page is now called [[Command-line program]], because in this course a tool is a button the harness gives the model, and a program is something Claude runs with one of those buttons. It also lists a few little programs that do big jobs. [[Working safely]] has a new part on connecting things: keys, who made a connector, and emails that contain orders for Claude. [[Reading the Claude Code screen]] and the [[Claude Code cheat sheet]] list the tool names on the ⏺ lines, including `PowerShell` on Windows. [[Connect Google Workspace]] now says why `gws` works only in Code. [[Sandbox]] now explains how a sandbox works inside. [[Chat Work and Code|Chat, Work and Code]] notes that Chat and Cowork are becoming one Claude.
 
+**From lecture 02: reading the screen and working safely.**
+
+- [[Working safely]] - the dos and don'ts: work on a copy, plan first, or say "do not change anything yet, just talk about it". Also what Esc Esc can and cannot undo. Read it before the homework: Esc Esc cannot undo moving files into folders.
+- [[Reading the Claude Code screen]] - the screen looks like programmer text, but you only need the plain sentences. Which lines to read, and when to press Esc.
+- [[Agent loop]] - gather context, take action, check the result, repeat. The diagram from the lecture, and where you fit in.
+- [[Compaction]] - what happens when a session gets too long, and why in normal work you should never get there.
+- [[Benchmark]] - how AI models are tested, the sites that show who leads right now, and how not to be fooled by a chart.
+
+**Changed:** Anthropic released Sonnet 5.5 on 28 September. It costs the same per token as Sonnet 5, is faster, and comes close to Opus 5.5 on most tests. `/model sonnet` now picks it. Before that, Anthropic released Opus 5.5 on 22 September. It is now the model Claude Code starts with, at medium effort, and it is cheaper than Opus 5. [[Claude model family]] and [[Effort]] have the new facts, and the charts now show what one task costs at each effort level. [[Chat Work and Code|Chat, Work and Code]] now says where Cowork runs: in Anthropic's cloud by default. [[Context window]] had one thing slightly wrong: when it is full, Claude Code does not simply drop old content. It clears old tool results and then summarises.
+
+**Coming next: connecting your systems, then making tasks repeat.**
+
+- [[Roadmap]] - weeks 03 and 04 are now fixed. Week 03 is about reaching the systems you use at work: connectors, command-line programs and APIs, and when to use which. Week 04 turns a task you do every week into one that repeats, and shows why a skill alone is not automation. The other topics are all still coming, in an order we will pick as we go.
+- Week 05 is now on the [[Roadmap]] too: running several agents at once. Instead of waiting for one agent, you hand out the work, let helpers do the side jobs, and check what comes back.
+
+**Ready for week 03: the ways into your systems.**
+
+- [[Connect Google Workspace]] - Gmail, Drive and Calendar two ways: the connector you switch on, and the `gws` command-line program. Six Gmail jobs show where the connector stops: saving attachments into a folder, sending a file, changing 2,000 emails at once, setting your out-of-office.
+- [[Command-line program]] - a program you run by typing one line instead of clicking. Claude reads its built-in manual and types the command for you.
+- [[API]] - a web address for programs, and why an API key is a password.
+
 **Also:** [[Connector]] had two things out of date. Claude Code does not describe every connected tool to the model in full at the start. It sees only the names and looks up the rest when needed. What still fills your context is what a connector sends back. And not every web connector is Anthropic's own: the Gmail, Calendar and Drive ones are made by Google.
 
-Before the homework, read [[Working safely]]. If you wonder which model to use, look at the chart on [[Effort]]. For week 03, start with [[Connect Google Workspace]]. After lecture 03, read [[Tool]] and [[Chat Work and Code|Chat, Work and Code]] first.
+Start with the [[03-gearing-up|lecture 03 page]], then read [[Tool]] and [[Chat Work and Code|Chat, Work and Code]]. Before the homework, read [[Working safely]]. If you wonder which model to use, look at the chart on [[Effort]].
 
 ## 2026-09-21
 

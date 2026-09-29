@@ -37,13 +37,13 @@ The [[Model#Who makes them|snapshot on the Model page]] is one of these charts, 
 A benchmark gets really useful when it shows score and cost for each [[Effort|effort]] level. Here is the independent Artificial Analysis test for the current [[Claude model family|Claude models]]:
 
 ![[effort-score-cost-claude-2026-09.png]]
-*Score against cost for each Claude model and effort level. Chart: petr-ai-school, from Artificial Analysis data, 23 September 2026.*
+*Score against cost per task for each Claude model and effort level. Chart: petr-ai-school, from Artificial Analysis data, 29 September 2026.*
 
 What you can read from it:
 
-- **More effort, more score, much more cost.** Opus 5.5 from medium to max: the score goes from 51 to 58, the cost goes up more than five times.
+- **More effort, more score, much more cost.** Opus 5.5 from medium to max: the score goes from 51 to 58, the cost per task goes up more than four times.
 - **The first steps pay, the last ones rarely do.** From low to medium is a big jump. From xhigh to max is small and expensive.
-- **The biggest model is not always the best one.** Opus 5.5 at medium effort scores the same as the bigger Fable 5.1 at high, for less than a third of the cost. At max effort Opus 5.5 is ahead. Only a benchmark shows you that.
+- **The biggest model is not always the best one.** Opus 5.5 at medium effort scores the same as the bigger Fable 5.1 at high, for about a third of the cost. At max effort Opus 5.5 is ahead. Only a benchmark shows you that.
 
 Here is a similar chart from a vendor. Anthropic published this one for Opus 5 in July 2026, on the DeepSWE coding test:
 

@@ -46,6 +46,7 @@ Keep blank lines around raw HTML blocks. After adding a new deck, restart `npm r
 `wiki/news.md` is the changelog students read. One entry per week that something shipped, newest first, directly under the intro.
 
 - The heading is the bare ISO date, `## 2026-09-21`, and nothing else. That keeps the anchor predictable (`/news#2026-09-21`) so the weekly reminder email can link straight to it. The headline goes on the next line in bold.
+- The date is the day of that week's lecture: Petr sends the news email on lecture day, with the new lecture in it. Work shipped earlier in the week goes into the upcoming lecture's entry, and the entry's date moves to the lecture day if it was started earlier.
 - Then bullets, one per new or substantially changed page, each a wikilink plus one line on why a student would care. Group small edits into a closing "Also:" paragraph.
 - Close the entry with a sentence naming the one or two pages to read first.
 - Never rewrite a published entry; past weeks are a record of what students were told.

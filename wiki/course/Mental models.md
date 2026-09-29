@@ -15,11 +15,11 @@ Here is the part that matters: **a folder is the same folder no matter which pro
 
 Analogy: a filing cabinet in the office. You can look at it, a colleague can look at it, the office assistant can pull documents from it. The cabinet does not change depending on who opens the drawer.
 
-## 2. Tools change, fundamentals stay
+## 2. AI products change, fundamentals stay
 
 Today we use Claude. Next year it may be something else. That is fine. Everything you learn here about [[Folder|folders]], [[Context window|context]], [[Tool|tools]] and [[Prompt|prompts]] works the same with any capable AI. Being able to switch is the skill, not loyalty to one product.
 
-Agnostic does not mean shallow, though. **Pick one and master it before you switch.** Go deep with one tool until it feels natural; every other tool will then come far easier, because you will recognise the same parts under a different coat of paint.
+Agnostic does not mean shallow, though. **Pick one and master it before you switch.** Go deep with one AI product until it feels natural. Every other one will then come far easier, because you will recognise the same parts, only with a different look.
 
 ## 3. Same agent, different windows
 
@@ -33,7 +33,7 @@ This is the big one. What people call "the AI" is really three parts:
 - The [[Harness|harness]] runs the loop: it gives the model your request, watches what the model wants to do next, asks you for [[Permission mode|permission]], and keeps going until the job is done.
 - The [[Tool|tools]] do the actual work: read a file, write a file, run a program, search the web, open your calendar.
 
-A chat website is a model with almost no tools. It can only talk. Claude Code is the same kind of model with a harness and many tools, so it can act. **More tools, more it can do for you.** That is the real difference between "chatting with AI" and "working with AI". See [[Chat Work and Code|Chat, Work and Code]] for the three products side by side.
+A chat website is a model with only a few tools. It can talk, search the web, use a few [[Connector|connectors]] and run small programs in a [[Sandbox|sandbox]] in the cloud, but it cannot reach your computer. Claude Code is the same kind of model with a harness and many tools, so it can act. **More tools, more it can do for you.** That is the real difference between "chatting with AI" and "working with AI". See [[Chat Work and Code|Chat, Work and Code]] for the three products side by side.
 
 Analogy: a brilliant advisor on the phone versus the same person sitting at your desk with access to your computer. Same brain. Very different usefulness.
 
@@ -43,7 +43,7 @@ Analogy: a brilliant advisor on the phone versus the same person sitting at your
 > It can only produce text. It cannot see your files, send an email or fill in a spreadsheet unless a tool for that is connected. When it seems to do more, a tool is doing it. Even [[Image generation|generating a picture]] is a separate model wired in as a tool.
 
 > [!question] "AI on my computer is a different, riskier kind of AI."
-> Same model. The difference is the tools it is allowed to use, and you approve each of them. The [[Harness|harness]] asks before it acts.
+> Same model. The difference is the tools it is allowed to use, and you decide how much it may do on its own: see [[Permission mode]]. The [[Harness|harness]] checks before it acts.
 
 > [!question] "It remembers everything I ever told it."
 > It sees only what is in the [[Context window|context window]] right now. Memory features exist, but they are a tool built on top, not the default. If you want it to know something next week, put it in a file: an [[Instructions file|instructions file]] in the [[Project|project]] folder is read at the start of every session.
@@ -54,6 +54,12 @@ Analogy: a brilliant advisor on the phone versus the same person sitting at your
 > [!question] "This is for programmers."
 > Claude Code is good at code because code is text in files. Your documents, notes and spreadsheets are also text in files. It works the same way for them.
 
+> [!question] "To use a program, someone has to open its window and click through it."
+> Claude can write an Excel file without opening Excel. The window is the way in for people: look, point, click, one thing at a time. Most programs also have ways in for other programs: files they can read and write, a [[Command-line program|command line]], an [[API]]. Programmers have used these ways for decades, because programs always needed to talk to each other. Now [[Claude Code]] uses them for you, and it is much faster than clicking. Clicking through the screen with [[Computer use|computer use]] is the slowest way, for when nothing else works.
+
+> [!question] "If there is no connector for a system, the agent cannot reach it."
+> A [[Connector|connector]] is one way in, not the only one. Many services also have a [[Command-line program|command-line program]] or an [[API]], and these often do more than the connector: save every record into a file, change 2,000 emails at once. A file export by hand always works too. The agent can reach whatever its [[Tool|tools]] can reach, and in Claude Code "run a program" reaches almost everything on your computer. See [[03-gearing-up|lecture 03]].
+
 > [!question] "If it sounds confident, it is probably right."
 > How sure it sounds proves nothing. A wrong answer comes out just as calm and well organised as a right one, because the model writes the words that fit best, not the words it has checked. The useful move is to ask it to go and look: see [[Verification]].
 
@@ -61,4 +67,5 @@ Analogy: a brilliant advisor on the phone versus the same person sitting at your
 
 - [[Roadmap]] - how these ideas map to the weekly sessions
 - [[Chat Work and Code|Chat, Work and Code]] - the three products compared
+- [[03-gearing-up|Lecture 03: Gearing up]] - the ways into a program besides its window
 - [[concepts/index|Glossary]]

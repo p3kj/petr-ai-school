@@ -29,16 +29,32 @@ This wiki grows every week. So that you do not have to go looking, everything ne
 **Coming next: connecting your systems, then making tasks repeat.**
 
 - [[Roadmap]] - weeks 03 and 04 are now fixed. Week 03 is about reaching the systems you use at work: connectors, command-line programs and APIs, and when to use which. Week 04 turns a task you do every week into one that repeats, and shows why a skill alone is not automation. The other topics are all still coming, in an order we will pick as we go.
+- Week 05 is now on the [[Roadmap]] too: running several agents at once. Instead of waiting for one agent, you hand out the work, let helpers do the side jobs, and check what comes back.
 
 **Ready for week 03: the ways into your systems.**
 
 - [[Connect Google Workspace]] - Gmail, Drive and Calendar two ways: the connector you switch on, and the `gws` command-line tool. Six Gmail jobs show where the connector stops: saving attachments into a folder, sending a file, changing 2,000 emails at once, setting your out-of-office.
-- [[Command-line tool]] - a program you run by typing one line instead of clicking. Claude reads its built-in manual and types the command for you.
+- [[Command-line program|Command-line tool]] - a program you run by typing one line instead of clicking. Claude reads its built-in manual and types the command for you.
 - [[API]] - a web address for programs, and why an API key is a password.
+
+**Lecture 03: Gearing up.**
+
+- [[03-gearing-up|Lecture 03: Gearing up]] - the slides, what we covered, your turn and the homework. What a tool is, and every way to give Claude more.
+- [[Tool]] - rewritten. A tool is a button the harness gives the model. How one tool call works, step by step, and the names you see on the ⏺ lines.
+- [[Connector]] - now says who makes a connector, how to connect one, and what it is good and less good at. Great for a quick look. For big jobs, everything it sends back fills your context.
+- [[API]] - now with a real answer from the Czech business register, so you can see what programs get back.
+- [[Script]] - a small file with steps that Claude writes and runs. You keep it, and it does the same thing every time.
+- [[Sandbox]] - the closed box where Chat and Work run their programs, and why it cannot see the programs on your computer.
+- [[Computer use]] - Claude using a program through its window, like you do. It works with anything, but it is slow, so it is the last way to try.
+- [[Prompt injection]] - an email, a document or a web page can contain orders for Claude, and Claude may follow them. What to watch for.
+- [[Chat Work and Code|Chat, Work and Code]] - a new table of what each one can reach. Only Code uses the programs and logins on your own computer.
+- [[Mental models]] - two more corrected beliefs: that a program is its window, and that no connector means no way in.
+
+**Also, for lecture 03:** the Command-line tool page is now called [[Command-line program]], because in this course a tool is a button the harness gives the model, and a program is something Claude runs with one of those buttons. It also lists a few little programs that do big jobs. [[Working safely]] has a new part on connecting things: keys, who made a connector, and emails that contain orders for Claude. [[Reading the Claude Code screen]] and the [[Claude Code cheat sheet]] list the tool names on the ⏺ lines, including `PowerShell` on Windows. [[Connect Google Workspace]] now says why `gws` works only in Code.
 
 **Also:** [[Connector]] had two things out of date. Claude Code does not describe every connected tool to the model in full at the start. It sees only the names and looks up the rest when needed. What still fills your context is what a connector sends back. And not every web connector is Anthropic's own: the Gmail, Calendar and Drive ones are made by Google.
 
-Before the homework, read [[Working safely]]. If you wonder which model to use, look at the chart on [[Effort]]. For week 03, start with [[Connect Google Workspace]].
+Before the homework, read [[Working safely]]. If you wonder which model to use, look at the chart on [[Effort]]. For week 03, start with [[Connect Google Workspace]]. After lecture 03, read [[Tool]] and [[Chat Work and Code|Chat, Work and Code]] first.
 
 ## 2026-09-21
 

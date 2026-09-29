@@ -22,7 +22,7 @@ Guides are hands-on. Each one walks through a single task, shows the steps for W
 
 ## Connecting your systems
 
-- [[Connect Google Workspace]] - Gmail, Drive and Calendar two ways: the connector you switch on, and the `gws` command-line tool. What each can do, shown on Gmail.
+- [[Connect Google Workspace]] - Gmail, Drive and Calendar two ways: the connector you switch on, and the `gws` command-line program. What each can do, shown on Gmail. Goes with [[03-gearing-up|lecture 03]].
 
 ## Coming with later sessions
 

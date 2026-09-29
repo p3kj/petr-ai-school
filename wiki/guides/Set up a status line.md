@@ -37,7 +37,7 @@ Say it your way. Anything you can describe works: "show the model and the time",
 
 ## What it can show
 
-The script gets a small packet of facts from Claude Code every few seconds and prints what you asked for. The facts include:
+The script gets a small packet of facts from Claude Code every few seconds and shows what you asked for. The facts include:
 
 | Fact | What it is |
 | --- | --- |

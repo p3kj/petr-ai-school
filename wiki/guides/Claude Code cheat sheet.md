@@ -73,6 +73,10 @@ The next ones you will meet:
 | `/login` | Signs in again or switches accounts. |
 | `/init` | Creates a starter [[Instructions file\|CLAUDE.md]] for the folder. |
 
+## The ⏺ lines
+
+Every ⏺ line with a name and brackets is a [[Tool|tool]] call. The names you will see most: `Read` · `Write` · `Update` · `Search` · `PowerShell` or `Bash` (runs a program) · `Web Search` · `Fetch` · `Agent`. A [[Connector|connector]]'s tool shows the connector's name first, then the action, for example `claude.ai Gmail - search_threads (MCP)`. The action may also show as a short title. [[Reading the Claude Code screen]] explains which lines to read.
+
 ## Permission modes
 
 Shift + Tab cycles through them. The label at the bottom of the screen tells you which one is on. See [[Permission mode]] for when to use which.

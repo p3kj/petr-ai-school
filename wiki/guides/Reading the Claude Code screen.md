@@ -3,15 +3,12 @@ title: Reading the Claude Code screen
 description: "What the lines on the screen mean, which ones to read and which to ignore. You do not need to understand the tool calls. Read the plain sentences, and stop the agent when they go the wrong way."
 aliases:
   - reading the screen
-  - the screen
   - transcript
-  - tool calls
-  - tool call
 tags:
   - guide
 ---
 
-Watching a builder work on your house. You do not need to know which drill bit they use. You need to hear "I will take this wall down now" early enough to say "wait, not that wall".
+Watching a builder work on your house. You do not need to know which drill they use. You need to hear "I will take this wall down now" early enough to say "wait, not that wall".
 
 The same is true for [[Claude Code]]. The screen fills with lines while it works, and many of them look like programmer text. **You do not need to read them.** Read the plain sentences in which Claude says what it is doing. They are enough to see when it goes the wrong way, and to stop it right there.
 
@@ -35,7 +32,7 @@ Here is what a short task looks like:
 
 ⏺ I'll look at the files in the folder first.
 
-⏺ Bash(ls)
+⏺ PowerShell(Get-ChildItem -Name)
   ⎿  budget.xlsx  notes.md  offer.pdf
 
 ⏺ Read(notes.md)
@@ -48,10 +45,28 @@ Here is what a short task looks like:
 | Line | What it is | Do you read it? |
 | --- | --- | --- |
 | `⏺ I'll look at the files...` | A sentence from Claude: what it is about to do, or what it found. | **Yes.** This is the part written for you. |
-| `⏺ Bash(ls)`, `⏺ Read(notes.md)` | A [[Tool|tool]] call. The word before the bracket is the tool, the part inside is what it works on. | Only a glance at the file or folder name. Is it the one you meant? |
+| `⏺ PowerShell(Get-ChildItem -Name)`, `⏺ Read(notes.md)` | A [[Tool|tool]] call. The word before the bracket is the tool, the part inside is what it works on. | Only a glance at the file or folder name. Is it the one you meant? |
 | `⎿ ...` | The result of the tool call, often shortened. | No. This is for the model. |
 
+On a Mac you see `Bash(ls)` in that place. On Windows you will mostly see `PowerShell`, and with Git installed sometimes `Bash` too. Same job: running a command.
+
 On a bigger task Claude also shows a checklist of its steps and ticks them off as it goes. That is the easiest progress bar you will get.
+
+### The tool names you will see most
+
+| On the ⏺ line | What it does |
+| --- | --- |
+| `Read` | Reads a file: text, PDF, picture |
+| `Write` | Makes a new file |
+| `Update` | Changes part of a file |
+| `Search` | Finds files, or text inside files |
+| `PowerShell`, `Bash` | Runs a program or a command: the big one |
+| `Web Search` | Searches the internet |
+| `Fetch` | Opens one web page |
+| `Agent` | Sends a helper to do part of the work |
+| `claude.ai Gmail - search_threads (MCP)` | A [[Connector\|connector]]'s tool: the connector's name, then the action. The action may also show as a short title |
+
+Programs such as `gws` or `ffmpeg` do not get their own line name. Claude runs them with `PowerShell` or `Bash`, so you see the program inside the brackets. See [[Tool]] and [[Command-line program]].
 
 > [!question] "It is all gibberish to me."
 > Many people believe they must understand every command before they may use an agent. You do not. The tool lines are for the [[Harness|harness]], and in Auto mode a second model checks the commands before they run (see [[Permission mode]]). Your job is the one you are good at: reading the plain sentences and judging whether the direction is right.
@@ -78,7 +93,7 @@ The main screen shortens things. **Ctrl + O** opens the transcript: every messag
 
 ## In VS Code and the desktop app
 
-The same three kinds of line, dressed differently:
+The same three kinds of line, in a different look:
 
 - **[[Claude Code in VS Code|VS Code]]:** Claude's sentences appear as normal chat messages. Each tool call is a small block with the tool name and the file; click it to open the details. File changes open as a before/after comparison next to your files.
 - **[[Claude Code in the desktop app|Desktop app]]:** the same idea: sentences as messages, tool calls as short lines you can open.

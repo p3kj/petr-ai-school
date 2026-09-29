@@ -18,7 +18,7 @@ Twenty minutes, one command to install, one browser sign-in. You do not need to 
 
 ## Step 1: Install Git for Windows (optional, recommended)
 
-Git is a tool programmers use to track file changes. You will not use it yourself yet, but installing it gives Claude an extra [[Tool|tool]] (a second kind of command shell) and we will meet Git properly later in the course.
+Git is a program programmers use to track file changes. You will not use it yourself yet, but installing it gives Claude an extra [[Tool|tool]]: `Bash`, a second way to run commands next to `PowerShell`. We will meet Git properly later in the course.
 
 1. Go to [git-scm.com/downloads/win](https://git-scm.com/downloads/win) and download the installer.
 2. Run it and click **Next** on every screen. The installer has many screens; the defaults are fine.

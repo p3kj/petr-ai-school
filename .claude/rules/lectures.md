@@ -2,6 +2,7 @@
 
 Full authoring notes live in `lectures/README.md` and `themes/README.md`. The essentials:
 
+- Decks are Marp. Slidev was considered and rejected; the reasons and the conditions for revisiting are in `lectures/README.md` under "Why Marp, not Slidev". Do not suggest switching unless one of those conditions is met.
 - One Marp deck per lecture, flat in `lectures/`, named `NN-lowercase-kebab-case.md`. Frontmatter starts with `marp: true`, `theme: sketch`, `paginate: true`, `size: 16:9`, `title`, `description`, `author`.
 - `draft: true` in the frontmatter keeps a deck off the site. `00-workbench.md` (the formatting reference deck) is a permanent draft.
 - Images go in `lectures/assets/` with URL-friendly names (lowercase, no spaces). Never hotlink remote images; PDF export drops them.

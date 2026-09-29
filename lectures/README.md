@@ -106,3 +106,17 @@ npx marp lectures/01-introduction-to-ai.md --pptx --allow-local-files -o 01-intr
 - `---` on its own line separates slides. So do `***` and `___`, so use the HTML tag `<hr>` for a rule *inside* a slide.
 - `<!-- _class: … -->` with a leading underscore applies to that slide only; without it the setting applies from there onwards.
 - Keep one idea per slide; if it needs a scrollbar, split it.
+
+## Why Marp, not Slidev
+
+Decided 2026-09-20 with the first deck; written down 2026-09-29, reconstructed from how the repo uses Marp. [Slidev](https://sli.dev/) has many more features and was the serious alternative. It lost for this repo:
+
+1. **One deck, one static file.** Marp turns each `.md` into one HTML file plus a PDF, which the wiki embeds with an iframe. Slidev builds a single-page web app per deck: a folder of JS bundles, each needing its own `--base` path under `/petr-ai-school/`. That is much harder to fit into Quartz's static folder and GitHub Pages.
+2. **Plain Markdown, plain CSS.** A Marp deck reads cleanly on GitHub and in Obsidian, and the theme is one CSS file. Slidev decks mix in Vue components, layouts and UnoCSS, and themes are npm packages. Marp fits "files first" and a public repo students can open.
+3. **Small surface for an agent.** Claude writes Markdown plus theme classes. No component code to break, no dev server to keep healthy.
+4. **Few dependencies.** One npm package. Slidev brings Vue, Vite, UnoCSS, and Playwright for export: slower CI, more to break on upgrades. Both need Chromium for PDF.
+5. **Experience.** A Slidev keynote built earlier in 2026 needed custom Vue layout components and repeated fixes for dev-server restarts and slide overflow.
+
+What we give up on purpose: click-by-click reveals (`v-click`), transitions and Magic Move (Marp only has `*` bullets that reveal one at a time), Slidev's presenter mode with drawing, timer and recording (Marp has a basic presenter view with notes), and Vue components or live code inside slides.
+
+**Revisit only if** most slides start to need live reveals, drawing or interactive demos; decks stop being embedded in the wiki and become standalone presentations; or Marp stops being maintained. A one-off deck that needs Slidev can be built outside this repo.

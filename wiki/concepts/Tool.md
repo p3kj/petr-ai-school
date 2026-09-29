@@ -72,7 +72,7 @@ There are about 45 built-in tools in total. The others you will rarely see. "Run
 
 Only a connector adds new buttons. Programs, scripts and APIs use the built-in ones.
 
-[[Chat Work and Code|Chat, Work and Code]] use the same model with different tools. Only Code can run the programs on your own computer.
+[[Chat Work and Code|Chat, Work (Cowork) and Code]] use the same model with different tools. Only Code can run the programs on your own computer.
 
 ## Example
 

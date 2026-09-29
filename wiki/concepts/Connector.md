@@ -26,6 +26,8 @@ A connector is a small program between Claude and a service's [[API]]. Someone b
 
 The Gmail connector, for example, has about 30 buttons. The Gmail API underneath has about 80 actions. The connector can search, read, reply, draft, label and send. It cannot attach a PDF from your folder, and it cannot save an attachment into a folder.
 
+The list can also depend on you. HubSpot has two connectors, and both are made by HubSpot: the one you switch on at claude.ai, and HubSpot's own server, which you add at claude.ai as a custom connector after someone creates an app for it in HubSpot. The buttons you get from either depend on your HubSpot plan, your permissions, and what you allowed when you connected. On one account, for example, the claude.ai connector showed no buttons for marketing emails (newsletters), and HubSpot's own server did. A button missing? Disconnect, connect again, and allow it. New permissions usually need a new connection.
+
 Connectors are made by the service itself, by Anthropic, or by anybody on the internet. Check who made one before you switch it on: a connector from a stranger works with your login and your data.
 
 ## Where connectors live
@@ -34,7 +36,7 @@ This is the part that confuses people, so learn it early. Connectors come from t
 
 | Where you set it up | Where it applies | Who manages it |
 | --- | --- | --- |
-| **On the web**, in your settings at claude.ai | Your account, so every session you sign in to: Chat, Work and [[Claude Code]] | Anthropic provides the list, you switch them on |
+| **On the web**, in your settings at claude.ai | Your account, so every session you sign in to: Chat, Work (Cowork) and [[Claude Code]] | Anthropic provides the list, you switch them on |
 | **On your computer**, where you start Claude Code, for example one that Claude added for you | This machine. Either all your folders, or one [[Project\|project]] | You |
 
 Both lists arrive together, and `/mcp` in Claude Code shows you everything from both. If you have set up the same service in both places, the one on your computer wins, and `/mcp` tells you the web one is hidden.

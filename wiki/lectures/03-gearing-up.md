@@ -86,7 +86,7 @@ All three get connectors. Only Code uses the programs and logins on your own com
 
 - Gmail: the connector compared with `gws`. The connector cannot attach a PDF from your folder, save attachments into a folder, or change your settings. `gws` can. See [[Connect Google Workspace]].
 - The meme in the slides shows Claude Code wanting to send an attachment from Gmail, and MCP holding it back. The connector simply has no button for a file from your folder.
-- HubSpot has several ways in. The HubSpot connector from the claude.ai list and HubSpot's own MCP server are both made by HubSpot, with different, overlapping lists of tools. Both change up to 10 records at a time, and everything they send back goes through the context.
+- HubSpot has several ways in. The HubSpot connector from the claude.ai list and HubSpot's own MCP server are both made by HubSpot. The buttons you get depend on your HubSpot plan, your permissions and what you allowed when you connected. New permissions need a reconnect. On our account the claude.ai one showed no buttons for marketing emails (newsletters) and HubSpot's own server did, which is why the course uses both. Both change up to 10 records at a time, and everything they send back goes through the context.
 - The HubSpot Agent CLI (beta) is a command-line program for the big jobs: delete, merge duplicates, save every record into a file. Ask for `--dry-run` first: it shows what would change, and changes nothing. Ask your HubSpot admin before you install it.
 - The HubSpot API does everything, with a key from your HubSpot admin and a script Claude writes.
 

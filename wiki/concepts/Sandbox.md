@@ -1,26 +1,45 @@
 ---
 title: Sandbox
-description: A closed box where Chat and Work run programs. Your own programs and logins stay out of reach, but a folder you connect is real, and so are the changes made in it.
+description: A closed box where Chat and Work (Cowork) run programs. Your own programs and logins stay out of reach, but a folder you connect is real, and so are the changes made in it.
 aliases:
   - sandboxes
   - sandboxed
+  - virtual machine
+  - virtual machines
+  - VM
+  - container
+  - containers
 tags:
   - concept
 ---
 
-The contractor from [[Chat Work and Code|Work]] has his own closed workshop with his own tools, and what happens in there does not touch your office. He gets into your office only through the doors you open for him, and what he does there is real.
+The contractor from [[Chat Work and Code|Work (Cowork)]] has his own closed workshop with his own tools, and what happens in there does not touch your office. He gets into your office only through the doors you open for him, and what he does there is real.
 
 A sandbox is that workshop: a closed space where programs can run without touching anything outside it. Claude uses one when it should be able to run programs, but not on your own computer. It can install things, make files and try things inside. Your programs and logins stay outside, out of reach. Your files come in only when you upload them or connect a [[Folder|folder]], and changes in a connected folder are real changes to your files.
 
-## Where you meet one
+## How a sandbox works inside
 
-| Product | Its sandbox | What it cannot reach |
-| --- | --- | --- |
-| **Chat** (claude.ai) | A small computer in the cloud. It runs short programs and makes files you can download. | Your computer. Only the files you upload. Your programs and logins. The internet only as far as your settings allow. |
-| **Work** (Cowork) | A closed computer in Anthropic's cloud, one for each task. It reaches the folders you connect through the Claude desktop app, while the app is open, and it can install programs inside. On some company plans it runs in a closed box on your own computer instead. | The programs and logins on your computer. Files outside the folders you connect. The internet only through a list of allowed websites; on a company plan the admin sets that list. |
-| **Code** (Claude Code) | No box. It runs programs on your own computer, as you. | It can reach what you can reach. That is why [[Permission mode\|permission modes]] matter. |
+A sandbox is not one special program. It is a way of working: give programs a closed space with limits, such as which files they may touch and which websites they may reach. There are three common ways to build one:
 
-This is the main difference between the three products. All three get the same [[Connector|connectors]]. Only Code runs the programs on your computer. Work can see and click them on the screen, slowly, with [[Computer use|computer use]], on Pro and Max plans.
+- **A virtual machine (VM):** a whole pretend computer made of software, with its own Windows or Linux. It runs on your real computer or on a server, and the real computer keeps it walled off (on Windows this part is called Hyper-V). Strong walls, but heavy: it starts up like a computer.
+- **A container:** a closed room inside one operating system (the base program of a computer, like Windows). The programs in it see only their own files, their own programs and a controlled network. Lighter than a VM: it starts in a second or two.
+- **A fence around each command:** no second computer at all. The operating system checks every command against a list: these folders may be changed, these websites may be reached.
+
+### The one rule
+
+A sandbox can use only what is inside it. The programs you installed on your own computer, and the logins those programs keep, are outside. That is why `gws` or `hubspot`, installed and logged in on your laptop, work in Code and not in Chat or Work. Only Code runs the programs on your computer. Work can see and click them on the screen, slowly, with [[Computer use|computer use]], on Pro and Max plans.
+
+## Where each product stands (September 2026)
+
+- **Chat** (claude.ai) runs programs in a container in the cloud. It can make files you download. It sees only the files you upload. How much of the internet it may reach is a setting under Settings, Capabilities: from nothing, to only the websites programs are downloaded from, to named websites, to almost everything. On company plans the default is small: Team allows only the download websites, Enterprise nothing.
+- **Work (Cowork)** runs in Anthropic's cloud by default. Each session gets its own closed box, made when the session starts and deleted when it ends. Traffic to the internet goes through a checkpoint that lets through only websites on an allowed list; on a company plan the admin sets that list. It reaches the folders you connect through the Claude desktop app on your computer, and only while that app is online. It can install programs inside its box, but not use yours.
+- **Work on your own computer:** the older way. Enterprise plans still use it by default, and some older installs too. The box is then a virtual machine on your own computer (on Windows with Hyper-V). Only the folders you connect are shared into it.
+- **Code** (Claude Code) runs programs on your own computer, as you, with no box. It can reach what you can reach. It has an optional fence around each command, switched on with `/sandbox`, but only on a Mac, on Linux and in WSL2 (Linux running inside Windows), not on normal Windows. So on Windows, Code runs with no box, and the [[Permission mode|permission mode]] is your control.
+
+Since 16 September 2026 Anthropic is merging Chat and Cowork into one "Claude", starting with Pro and Max. On your account the two may already be one. In this course we keep calling the part that works on tasks in a sandbox "Work".
+
+> [!note]
+> These details change often. Anthropic decides what each sandbox may reach, and the settings above may look different next month. The rule does not change: a sandbox can use only what is inside it.
 
 ## Example
 

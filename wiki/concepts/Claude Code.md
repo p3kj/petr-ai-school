@@ -23,7 +23,7 @@ Open a [[Folder|folder]] with last month's meeting notes, start Claude Code ther
 
 ## Why it matters for you
 
-Anthropic sells the same model in three products, see [[Chat Work and Code|Chat, Work and Code]]. Chat is an advisor on the phone. Work is a contractor you hand a folder and a task. Code is a colleague at the next desk with access to what you have. The difference is the tools: only Code can run the programs on your own computer, with your logins. Chat and Work run programs only in a [[Sandbox|sandbox]]. Once you are comfortable at the Code level, every other AI product is a simpler version of the same thing.
+Anthropic sells the same model in three products, see [[Chat Work and Code|Chat, Work (Cowork) and Code]]. Chat is an advisor on the phone. Work is a contractor you hand a folder and a task. Code is a colleague at the next desk with access to what you have. The difference is the tools: only Code can run the programs on your own computer, with your logins. Chat and Work run programs only in a [[Sandbox|sandbox]]. Once you are comfortable at the Code level, every other AI product is a simpler version of the same thing.
 
 ## Related
 

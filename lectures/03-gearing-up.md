@@ -753,18 +753,19 @@ Test on the teaching laptop first: gws takes JSON in --params, and quoting JSON 
 
 | Way | Setup | What it can do |
 | --- | --- | --- |
-| The HubSpot connector (claude.ai) | switch on, sign in | subset of tools only, look up, search, change up to 10 records at a time |
-| HubSpot's own MCP server | your HubSpot admin sets it up once | full HubSpot tool list |
+| The HubSpot connector (claude.ai) | switch on, sign in | look up, search, change up to 10 records at a time. On our account: no newsletters |
+| HubSpot's own MCP server | an app in HubSpot, then a custom connector at claude.ai, then sign in | a slightly different set of buttons. On our account: newsletters too |
 | HubSpot Agent CLI (beta) | install, log in once in the browser | all CRM records, in bulk: delete, merge, workflows. Check it out, could be best of all |
 | The HubSpot API | a key from your HubSpot admin, a small script | everything. Claude writes the script |
 
 <div class="box tip">
 
-Both MCP servers are made by HubSpot. Both are small next to the CLI.
+Both are made by HubSpot. The buttons you get depend on your HubSpot plan and on what you allow when you connect. Both are small next to the CLI.
 
 </div>
 
 <!--
+Why two MCP servers: the claude.ai connector showed no newsletter (marketing email) buttons, so HubSpot's own server was added for them. HubSpot documents marketing emails for both, and says "Tool availability varies by HubSpot subscription, user permissions, and account configuration". Permissions are chosen when you connect; new ones need a reconnect. Before the lecture: reconnect the claude.ai connector, allow marketing, and compare /mcp. HubSpot's own list for its server has 32 tools and is not called complete.
 Note: the claude.ai HubSpot connector is made by HubSpot (mcp.hubspot.com/anthropic, July 2025), not by Anthropic. The custom server at mcp.hubspot.com is not "almost everything": 22 tools are the same (28 and 29 in Claude Code, 29 Sep 2026), it adds marketing emails, custom properties and pipelines and the inbox, and it lacks blog posts, website pages and saved reports. Both: no delete, 10 records per change, every answer through the context. It needs an MCP auth app in HubSpot; on Team plans only an Owner can add a custom connector.
 Keys: from 26 Oct 2026 existing accounts cannot create new private apps (new accounts from 28 Sep 2026). Old private apps keep working. New keys are service keys.
 -->
@@ -775,7 +776,7 @@ Keys: from 26 Oct 2026 existing accounts cannot create new private apps (new acc
 
 ## HubSpot Agent CLI: the big jobs
 
-- Made by HubSpot for AI agents such as Claude Code, not for people to type into. Public beta since June 2026. The command is `hubspot`.
+- Made by HubSpot mainly for AI agents such as Claude Code. Public beta since June 2026. The command is `hubspot`.
 - Log in once: `hubspot auth login` opens the browser. It gets your own HubSpot rights, no more.
 - Does what both connectors cannot: delete, merge duplicates, edit workflows and pipelines, save every record into a file.
 - Beta, and it deletes for real. Ask for `--dry-run` first: it shows what would change, and changes nothing.

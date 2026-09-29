@@ -74,7 +74,7 @@ The big win: the data goes **straight into a file**. Claude sees one line, "save
 
 - **Good:** it usually does far more than the matching connector. Big data goes into files, past the context. A thousand items in one command. The manual is built in.
 - **Less good:** some setup: install, log in, sometimes a file from your admin. Not every program is official, so ask Claude who makes it.
-- **Only in Code.** The programs and logins on your own computer are reachable only from [[Claude Code]]. Work can install programs in its own [[Sandbox|sandbox]], but not use yours. Chat cannot run your programs at all. See [[Chat Work and Code|Chat, Work and Code]].
+- **Only in Code.** The programs and logins on your own computer are reachable only from [[Claude Code]]. Work (Cowork) can install programs in its own [[Sandbox|sandbox]], but not use yours. Chat cannot run your programs at all. See [[Chat Work and Code|Chat, Work and Code]].
 
 ## Example
 

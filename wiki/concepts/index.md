@@ -31,7 +31,7 @@ Hover over a term for the short version, click for the full page. Terms are adde
 | [[Project]] | The folder you opened the agent in. What it can see, what it may change, where its instructions live. |
 | [[Prompt]] | What you tell the AI. Role, Context, Command, Format, and optionally how to check. |
 | [[Prompt injection]] | Orders for the AI hidden in an email, a web page or a file. Claude may follow them, so read its plan first. |
-| [[Sandbox]] | A closed box where Chat and Work run programs. Your programs and logins stay out of reach; a folder you connect is real. |
+| [[Sandbox]] | A closed box where Chat and Work (Cowork) run programs. Your programs and logins stay out of reach; a folder you connect is real. |
 | [[Script]] | A small file with exact steps that Claude writes and runs. You keep it; it does the same thing every time. |
 | [[Session]] | One conversation in one folder. `/clear` starts a new one, `/resume` brings an old one back, Esc Esc undoes file changes. |
 | [[Skill]] | A saved procedure for a recurring task. Written once in a file, followed every time. |

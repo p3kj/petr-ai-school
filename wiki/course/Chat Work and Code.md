@@ -13,6 +13,13 @@ tags:
 
 Anthropic ships three products, and they all run the same [[Model|models]]. What changes is the [[Harness|harness]] around the model, how many [[Tool|tools]] it has, and how much control you keep. In this course we call them **Chat, Work and Code**. Anthropic's names are Claude (the app), Claude Cowork and Claude Code.
 
+> [!note] Chat and Cowork are becoming one (September 2026)
+> Since 16 September 2026 Anthropic is merging Chat and Cowork into one, called simply "Claude". It comes to Pro and Max plans first. Team and Free plans follow soon, and Enterprise plans get at least 30 days' notice. The Code tab stays where it is. If your account has not moved yet, the desktop app still shows three tabs: Chat, Cowork and Code. If it has moved, you start a task and connect folders in the same "Claude" conversation where you chat.
+>
+> We keep the three names in this course because they are three levels of tools. Chat mostly talks, and runs small programs in a sandbox in the cloud. Work does whole tasks in a [[Sandbox|sandbox]], with the folders you connect. Code works on your own computer. That picture stays true even when two of them share one window. See [[Sandbox#How a sandbox works inside|how a sandbox works]].
+>
+> About the names: the product is "Claude Cowork", or "Cowork" for short. "Work" is only our name for it in this course. Nothing is called "Claude Work". ChatGPT has a "Work" mode too, but that is a different product from a different company.
+
 | | Chat | Work (Cowork) | Code (Claude Code) |
 | --- | --- | --- | --- |
 | Analogy | An advisor on the phone | A contractor you hand a folder and a task | A colleague at the next desk with your keyboard |

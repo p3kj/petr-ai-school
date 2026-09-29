@@ -11,6 +11,9 @@ CLAUDE.local.md
 # node
 node_modules/
 
+# local lecture demos with real CRM data (anchored: must not match folders under wiki/)
+/demo/
+
 # generated lecture exports (the site is the browsable copy)
 lectures/*.html
 lectures/*.pdf

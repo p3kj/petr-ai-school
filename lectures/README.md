@@ -15,7 +15,8 @@ lectures/
 | --- | --- | --- |
 | 00 | [Slide Workbench](00-workbench.md) - every formatting feature and slide template, ready to copy | no (`draft: true`) |
 | 01 | [Introduction to AI](01-introduction-to-ai.md) | [wiki page](../wiki/lectures/01-introduction-to-ai.md) |
-| 02 | [Meet Claude Code](02-meet-claude-code.md) - hands-on tour of the controls | not yet (`draft: true`) |
+| 02 | [Meet Claude Code](02-meet-claude-code.md) - hands-on tour of the controls | [wiki page](../wiki/lectures/02-meet-claude-code.md) |
+| 03 | [Gearing up](03-gearing-up.md) - what a tool is, and the ways to give the agent more | [wiki page](../wiki/lectures/03-gearing-up.md) |
 
 ## Naming and publishing
 
